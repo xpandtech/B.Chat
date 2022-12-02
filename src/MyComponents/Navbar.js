@@ -1,11 +1,14 @@
 import Card from 'react-bootstrap/Card';
 import Nav from 'react-bootstrap/Nav';
+import Logo from '../logo.png';
 
 function Navbar() {
   return (
     <div className='card'>
       <Card.Header >
         <Nav  variant="pills" defaultActiveKey="#inbox">
+        <img src={Logo} className="logo" />
+
           <Nav.Item className='pills'>
             <Nav.Link className='inbox' href="#inbox">Inbox</Nav.Link>
           </Nav.Item>

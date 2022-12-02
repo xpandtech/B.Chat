@@ -40,12 +40,21 @@ body {
 
 .inbox{
   margin-right: 20px;
+  margin-left: 525px;
 }
 
 .outbox{
   margin-left: 20px;
+  margin-right: 525px;
 }
 
 .pills{
   background-color: #333944;
 }
+
+.logo{
+  width: 49px;
+  background-color: #333944;
+  
+}
+
