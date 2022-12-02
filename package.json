@@ -1,7 +1,7 @@
 {
   "name": "x-bat",
   "version": "0.1.0",
-  "homepage": "https://asbirvkp.github.io/x-bat.github.io",
+  "homepage": "https://xpandtech.github.io/x-bat.github.io",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
