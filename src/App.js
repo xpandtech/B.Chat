@@ -1,10 +1,16 @@
 
 import './App.css';
-import Sidebar from './MyComponents/Navbar'
 
 function App() {
   return (
-   <Sidebar/>
+    <div className="App">
+      <header className="App-header">
+        <p>
+          BAT
+        </p>
+
+      </header>
+    </div>
   );
 }
 
