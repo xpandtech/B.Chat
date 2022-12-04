@@ -10,7 +10,7 @@ function Navbar() {
         <img src={Logo} className="logo" />
 
           <Nav.Item className='pills'>
-            <Nav.Link className='inbox' href="#inbox">Inbox</Nav.Link>
+            <Nav.Link className='inbox' href="#inbox">I</Nav.Link>
           </Nav.Item>
           <Nav.Item className='pills'>
             <Nav.Link  href="#broadcast">Broadcast</Nav.Link>
