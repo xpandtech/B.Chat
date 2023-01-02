@@ -3,7 +3,7 @@ import './App.css';
 function App() {
   return (
     <div>
-      BAT
+      BAT App
     </div>
   );
 }
