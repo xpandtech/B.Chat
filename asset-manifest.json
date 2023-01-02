@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/x-bat.github.io/static/css/main.31d6cfe0.css",
-    "main.js": "/x-bat.github.io/static/js/main.303f78bd.js",
+    "main.js": "/x-bat.github.io/static/js/main.dbc570da.js",
     "static/js/787.0bafe5c7.chunk.js": "/x-bat.github.io/static/js/787.0bafe5c7.chunk.js",
     "index.html": "/x-bat.github.io/index.html",
-    "main.303f78bd.js.map": "/x-bat.github.io/static/js/main.303f78bd.js.map",
+    "main.dbc570da.js.map": "/x-bat.github.io/static/js/main.dbc570da.js.map",
     "787.0bafe5c7.chunk.js.map": "/x-bat.github.io/static/js/787.0bafe5c7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.303f78bd.js"
+    "static/js/main.dbc570da.js"
   ]
 }
