@@ -1,0 +1,91 @@
+.navbar-brand {
+    display: flex;
+    width: 300px;
+    height: 100px;
+}
+.navbar-brand img{
+    width: 100px !important;;
+    height: 110px !important;;
+    padding-bottom:4rem;
+    margin-top: -25px!important;
+    margin-bottom:5px!important ;
+}
+
+
+.nav-link{
+    color: rgb(38, 127, 205) !important ;
+    font-size: small;
+}
+
+li{
+    text-decoration: none !important;
+    border-bottom: #1266b9;
+    border:0.2px;
+    text-align: center;
+    padding: 2px;
+    
+} 
+a{
+    text-decoration: none !important;
+}
+
+.nav-items{
+        text-decoration: none;
+}
+.nav-link:link { text-decoration: none !important; }
+.dropdown-menu{
+    
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: 0.5rem 0;
+    margin: 0.125rem 0 0;
+    font-size: 1rem;
+    color: #020a11;
+    text-align: left;
+    list-style: none;
+    background-color: #111213;
+    background-clip: padding-box;
+    border: 1px solid rgb(0 0 0 / 8%);
+    border-radius: 0.25rem;
+}
+
+
+.nav-link:hover{    
+transition: 300ms;
+font-size: large;
+}
+
+.dropdown-item{
+    color: black !important;
+}
+.navbar-nav{
+    align-items: right !important;
+}
+.collapse navbar-collapse{
+    float: right;
+}
+
+.navbar-toggler{
+    color: aliceblue !important;
+}
+
+.navbar-toggler-icon{
+    color: aliceblue !important;
+}
+
+.container-fluid{
+    background-color: transparent;
+    
+}
+
+.langlink:hover{
+    font-size: large;
+    transition: 300ms;
+
+
+}
