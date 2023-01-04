@@ -395,6 +395,12 @@ html {
   border-radius: 50%;
   object-fit: cover;
 }
+.chat-msg-img{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
 
 .chat-msg-profile {
   flex-shrink: 0;
