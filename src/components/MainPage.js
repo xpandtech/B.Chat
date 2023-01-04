@@ -1,5 +1,28 @@
 import React from 'react';
+// import axios from "axios";
+// import{useEffect,useState} from "react"
 import './Main.css'
+//  function Home(){
+// let offset = 0;
+
+// const [ScrollTop, setScrollTop]= useState([]);
+// }
+
+
+// const handelScroll = (e) => {
+// if (
+//   window.innerHeight + e.target.documentElement.ScrollTop +1 >
+//   e.target.documentElement.ScrollHeight
+// ){
+//   handelScroll();
+// }
+// };
+// useEffect(()=>{
+//   handelScroll();
+//   window.addEventListener("scroll",handleScroll);
+// },[])
+
+
 
 function  SinglePage (){
     const toggleButton = document.querySelector('.dark-light');
@@ -10,9 +33,11 @@ colors.forEach(color => {
     colors.forEach(c => c.classList.remove('selected'));
     const theme = color.getAttribute('data-color');
     document.body.setAttribute('data-theme', theme);
-    color.classList.add('selected');
+    color.classList.add('selected');                                                     
   });
 });
+
+
 
 toggleButton.addEventListener('click', () => {
   document.body.classList.toggle('dark-mode');
