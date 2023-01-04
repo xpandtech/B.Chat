@@ -1,26 +1,5 @@
 import React from 'react';
-// import axios from "axios";
-// import{useEffect,useState} from "react"
 import './Main.css'
-//  function Home(){
-// let offset = 0;
-
-// const [ScrollTop, setScrollTop]= useState([]);
-// }
-
-
-// const handelScroll = (e) => {
-// if (
-//   window.innerHeight + e.target.documentElement.ScrollTop +1 >
-//   e.target.documentElement.ScrollHeight
-// ){
-//   handelScroll();
-// }
-// };
-// useEffect(()=>{
-//   handelScroll();
-//   window.addEventListener("scroll",handleScroll);
-// },[])
 
 
 

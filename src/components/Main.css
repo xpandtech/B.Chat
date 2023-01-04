@@ -763,10 +763,13 @@ html {
   .detail-area {
     border-left: 1px solid var(--border-color);
     margin-left: auto;
-    padding: 30px 30px 0 30px;
+    padding: 20px 20px 0 20px;
+    display: flex;
+    overflow-y: auto;
+    overflow-x: hidden;
     display: flex;
     flex-direction: column;
-    overflow:hidden;
+    position: relative;
     
 }
 }
