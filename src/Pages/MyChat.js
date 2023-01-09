@@ -1,7 +1,7 @@
 import { ChatEngine } from 'react-chat-engine';
 import ChatFeed from '../components/ChatFeed';
 import LoginForm from '../components/LoginForm';
-import Navbar from '../components/Navbar'
+import Navbar from '../components/NavBar'
 import './MyChat.css';
 
 
