@@ -46,8 +46,9 @@ const ChatFeed = (props) => {
 
   return (
   <>
-  <ExtraNav/>
+  
   <div className="chat-feed">
+  <ExtraNav/>
       <div className="chat-title-container">
         <div className="chat-title">{chat?.title}</div>
         <div className="chat-subtitle">
