@@ -1,6 +1,7 @@
 import MyMessage from './MyMessage';
 import TheirMessage from './TheirMessage';
 import MessageForm from './MessageForm';
+import ExtraNav from './ExtraNav';
 
 const ChatFeed = (props) => {
   const { chats, activeChat, userName, messages } = props;
@@ -44,7 +45,9 @@ const ChatFeed = (props) => {
   if (!chat) return <div />;
 
   return (
-    <div className="chat-feed">
+  <>
+  <ExtraNav/>
+  <div className="chat-feed">
       <div className="chat-title-container">
         <div className="chat-title">{chat?.title}</div>
         <div className="chat-subtitle">
@@ -57,6 +60,8 @@ const ChatFeed = (props) => {
         <MessageForm {...props} chatId={activeChat} />
       </div>
     </div>
+  </>
+    
   );
 };
 
