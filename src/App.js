@@ -1,11 +1,16 @@
 import React from "react";
-import MyChat from './Page/MyChat';
+//import Navbar from './components/Navbar';
+import MyChat from './Pages/MyChat';
+//import Inbox from './Pages/Inbox';
+import "./App.css"
+
 const App = () => {
 
 
   return (
     <>
-    <MyChat/>
+  
+     <MyChat className="Main-page"/> 
     </>
     
     
