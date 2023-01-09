@@ -11,7 +11,7 @@ const MyChat = () => {
 
   return (
 
-    <>
+    <div className="Main-page">
     <Navbar/>
     <ChatEngine
       height="100vh"
@@ -21,7 +21,7 @@ const MyChat = () => {
       renderChatFeed={(chatAppProps) => <ChatFeed {...chatAppProps} />}
       onNewMessage={() => new Audio('https://chat-engine-assets.s3.amazonaws.com/click.mp3').play()}
     />
-    </>
+    </div>
     
   );
 
