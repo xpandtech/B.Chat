@@ -1,6 +1,7 @@
 .extranav{
-	background-color: rgb(131, 133, 138);
+	background-color: rgb(194, 196, 203);
 	height: 4em;
-
+	margin: 10px;
+	border-radius: 10px;
 	
 }

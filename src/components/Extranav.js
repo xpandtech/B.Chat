@@ -1,25 +1,10 @@
-import * as React from 'react';
-import AppBar from '@mui/material/AppBar';
-import Toolbar from '@mui/material/Toolbar';
-import Container from '@mui/material/Container';
-import "./ExtraNav.css";
+import React from 'react';
+import './ExtraNav.css';
 
-function NavBar() {
-
+const Extranav = () => {
   return (
-    <AppBar  position="static">
-      <Container className='extranav' maxWidth="xl">
-        <Toolbar disableGutters>
-          
-          
-         
-
-
-    
-
-        </Toolbar>
-      </Container>
-    </AppBar>
-  );
+    <div className='extranav'></div>
+  )
 }
-export default NavBar;
+
+export default Extranav
