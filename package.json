@@ -9,7 +9,7 @@
     "@testing-library/user-event": "^12.6.0",
     "axios": "^0.21.4",
     "react": "^17.0.1",
-    "react-chat-engine": "^1.11.9",
+    "react-chat-engine": "^1.11.28",
     "react-dom": "^17.0.1",
     "react-scripts": "^5.0.1",
     "web-vitals": "^0.2.4"
@@ -21,7 +21,6 @@
     "postinstall": "patch-package",
     "eject": "react-scripts eject"
   },
-
   "browserslist": {
     "production": [
       ">0.2%",
