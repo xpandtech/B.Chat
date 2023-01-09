@@ -10,7 +10,7 @@ const App = () => {
   return (
     <>
   
-     <MyChat className="Main-page"/> 
+     <MyChat/> 
     </>
     
     
