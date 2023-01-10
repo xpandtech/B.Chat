@@ -1,8 +1,8 @@
-.extranav{
+.extnav {
 	background-color: rgb(194, 196, 203);
-	height: 4em;
+	height: 3.5em;
 	margin: 10px;
-	border-radius: 10px;
+	border-radius: 5px;
 	justify-content: center;
 	text-align: center;
 	align-content: center;
@@ -13,4 +13,9 @@ position: center;
 margin-left: 60px;
 margin-top: 10px!important;
 
+}
+.Box{
+	margin-bottom:0px!important;
+	justify-content: center;
+	margin-right: 60px;
 }
