@@ -3,5 +3,14 @@
 	height: 4em;
 	margin: 10px;
 	border-radius: 10px;
+	justify-content: center;
+	text-align: center;
+	align-content: center;
 	
+}
+.Avtar{
+position: center;
+margin-left: 60px;
+margin-top: 10px!important;
+
 }
