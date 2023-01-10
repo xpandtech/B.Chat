@@ -3,8 +3,7 @@ import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
-import './subcomp.css'
-
+import './subcomp.css';
 
 export default function Agent() {
   const [age, setAge] = React.useState('');
@@ -14,27 +13,22 @@ export default function Agent() {
   };
 
   return (
-    <div className='operator' >
-      <FormControl  sx={{ m: 3, minWidth: 190 }}>
-        <InputLabel id="demo-simple-select-helper-label">Agent</InputLabel>
-        <Select
-        className='operator'
-          labelId="demo-simple-select-helper-label"
-          id="demo-simple-select-helper"
-          value={age}
-          label="Operator"
-          onChange={handleChange}
-        >
-          <MenuItem value="">
-            <em>None</em>
-          </MenuItem>
-          <MenuItem value={10}>Chatbot</MenuItem>
-          <MenuItem value={20}>John</MenuItem>
-          <MenuItem value={30}>Devid</MenuItem>
-        </Select>
-        
-      </FormControl>
-      
-    </div>
+    <FormControl sx={{ m: 1.6, minWidth: 180 }} size="small">
+      <InputLabel id="demo-select-small">Agent</InputLabel>
+      <Select
+        labelId="demo-select-small"
+        id="demo-select-small"
+        value={age}
+        label="Agent"
+        onChange={handleChange}
+      >
+        <MenuItem value="">
+          <em>None</em>
+        </MenuItem>
+        <MenuItem value={10}>John</MenuItem>
+        <MenuItem value={20}>Devid</MenuItem>
+        <MenuItem value={30}>Lissy</MenuItem>
+      </Select>
+    </FormControl>
   );
 }
