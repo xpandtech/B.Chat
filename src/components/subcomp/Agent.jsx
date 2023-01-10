@@ -3,7 +3,8 @@ import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
-import './subcomponents.css'
+import './subcomp.css'
+
 
 export default function Agent() {
   const [age, setAge] = React.useState('');
@@ -33,7 +34,7 @@ export default function Agent() {
         </Select>
         
       </FormControl>
-
+      
     </div>
   );
 }
