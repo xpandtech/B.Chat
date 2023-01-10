@@ -1,6 +1,6 @@
 .extnav {
 	background-color: rgb(194, 196, 203);
-	height: 3.5em;
+	height: 4em;
 	margin: 10px;
 	border-radius: 5px;
 	justify-content: center;
@@ -8,14 +8,14 @@
 	align-content: center;
 	
 }
-.Avtar{
+/* .Avtar{
 position: center;
-margin-left: 60px;
+margin-left: ;
 margin-top: 10px!important;
 
-}
-.Box{
+} */
+/* .Box{
 	margin-bottom:0px!important;
 	justify-content: center;
-	margin-right: 60px;
-}
+	margin-right: 0px;
+} */
