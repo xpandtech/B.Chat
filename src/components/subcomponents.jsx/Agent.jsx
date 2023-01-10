@@ -14,7 +14,7 @@ export default function Agent() {
 
   return (
     <div className='operator' >
-      <FormControl  sx={{ m: -2, minWidth: 190 }}>
+      <FormControl  sx={{ m: 3, minWidth: 190 }}>
         <InputLabel id="demo-simple-select-helper-label">Agent</InputLabel>
         <Select
         className='operator'
