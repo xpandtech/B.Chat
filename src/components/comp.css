@@ -1,3 +1,9 @@
+.navbar{
+	background-color: rgb(52, 65, 106);
+	height: 4em;
+	
+}
+
 .extnav {
 	background-color: rgb(194, 196, 203);
 	height: 4em;
@@ -8,14 +14,3 @@
 	align-content: center;
 	
 }
-/* .Avtar{
-position: center;
-margin-left: ;
-margin-top: 10px!important;
-
-} */
-/* .Box{
-	margin-bottom:0px!important;
-	justify-content: center;
-	margin-right: 0px;
-} */

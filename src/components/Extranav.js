@@ -1,6 +1,6 @@
 import React from 'react';
 import { Avatar } from 'react-chat-engine';
-import './ExtraNav.css';
+import './comp.css';
 import Agent from './subcomp/Agent';
 import Avtar from './subcomp/Avtar';
 import ExtraNavicons from './subcomp/ExtraNavicons';
