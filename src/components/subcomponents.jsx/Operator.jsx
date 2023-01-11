@@ -14,6 +14,7 @@ export default function Operator() {
 
   return (
     <div className='operator' >
+<<<<<<< HEAD
 <<<<<<< HEAD:src/components/subcomponents.jsx/Agent.jsx
       <FormControl  sx={{ m: 3, minWidth: 190 }}>
         <InputLabel id="demo-simple-select-helper-label">Agent</InputLabel>
@@ -21,6 +22,10 @@ export default function Operator() {
       <FormControl  sx={{ m: -2, minWidth: 190 }}>
         <InputLabel id="demo-simple-select-helper-label">Operator</InputLabel>
 >>>>>>> parent of 6e567a4f (update):src/components/subcomponents.jsx/Operator.jsx
+=======
+      <FormControl  sx={{ m: -2, minWidth: 190 }}>
+        <InputLabel id="demo-simple-select-helper-label">Operator</InputLabel>
+>>>>>>> parent of 6e567a4f (update)
         <Select
         className='operator'
           labelId="demo-simple-select-helper-label"
