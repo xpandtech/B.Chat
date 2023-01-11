@@ -3,21 +3,15 @@ import React from "react";
 import MyChat from './Pages/MyChat';
 //import Inbox from './Pages/Inbox';
 import "./App.css"
-import { ChatList } from 'react-chat-engine';
 
 const App = () => {
 
-
   return (
-    <>
-     <MyChat/> 
-    </>
-    
+
+  <MyChat/>
     
   );
+
 };
-
-
-// infinite scroll, logout, more customizations...
 
 export default App;
