@@ -4,11 +4,11 @@ import { ChatList } from 'react-chat-engine';
 const Chatlist = () => {
   return (
     <div>
-
+    
     <ChatList {...props} />
 
     </div>
   )
 }
 
-export default Chatlist;
+export default Chatlist

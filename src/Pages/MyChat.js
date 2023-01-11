@@ -1,4 +1,4 @@
-import { ChatEngine } from 'react-chat-engine';
+import { ChatEngine, ChatList } from 'react-chat-engine';
 import ChatFeed from '../components/ChatFeed';
 import LoginForm from '../components/LoginForm';
 import NavBar from '../components/NavBar'
@@ -21,6 +21,7 @@ const MyChat = () => {
       userName={localStorage.getItem('username')}
       userSecret={localStorage.getItem('password')}
       renderChatFeed={(chatAppProps) => <ChatFeed {...chatAppProps} />}
+
       onNewMessage={() => new Audio('https://chat-engine-assets.s3.amazonaws.com/click.mp3').play()}
     />
     </div>
