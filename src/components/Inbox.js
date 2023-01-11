@@ -1,5 +1,6 @@
 import React from "react"
 import "./InboxStyle.css"
+import SocialMedia from "./subcomp/Socialmedia";
 
 const Inbox = () => {
     const toggleButton = document.querySelector('.dark-light');
@@ -19,6 +20,7 @@ toggleButton.addEventListener('click', () => {
 });
     return(
        <>
+       <SocialMedia/>
        <div className="app">
  <div className="header">
   <div className="logo">

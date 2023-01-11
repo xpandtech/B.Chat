@@ -1,7 +1,11 @@
+
+
 const TheirMessage = ({ lastMessage, message }) => {
   const isFirstMessageByUser = !lastMessage || lastMessage.sender.username !== message.sender.username;
 
   return (
+    <>
+    <SocialMedia/>
     <div className="message-row">
       {isFirstMessageByUser && (
         <div
@@ -24,6 +28,7 @@ const TheirMessage = ({ lastMessage, message }) => {
           </div>
         )}
     </div>
+    </>
   );
 };
 
