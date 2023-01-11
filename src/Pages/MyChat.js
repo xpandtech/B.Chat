@@ -13,7 +13,7 @@ const MyChat = () => {
 
     <div className="Main-page">
     <NavBar/>
-    <TheSameChatUI/>
+    
     </div>
     
   );
