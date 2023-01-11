@@ -5,7 +5,7 @@ import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 import './subcomponents.css'
 
-export default function Agent() {
+export default function Operator() {
   const [age, setAge] = React.useState('');
 
   const handleChange = (event) => {
@@ -14,8 +14,13 @@ export default function Agent() {
 
   return (
     <div className='operator' >
+<<<<<<< HEAD:src/components/subcomponents.jsx/Agent.jsx
       <FormControl  sx={{ m: 3, minWidth: 190 }}>
         <InputLabel id="demo-simple-select-helper-label">Agent</InputLabel>
+=======
+      <FormControl  sx={{ m: -2, minWidth: 190 }}>
+        <InputLabel id="demo-simple-select-helper-label">Operator</InputLabel>
+>>>>>>> parent of 6e567a4f (update):src/components/subcomponents.jsx/Operator.jsx
         <Select
         className='operator'
           labelId="demo-simple-select-helper-label"
