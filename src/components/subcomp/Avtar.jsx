@@ -9,7 +9,7 @@ export default function Avtar() {
       <Avatar
         alt="Remy Sharp"
         src="https://mui.com/static/images/avatar/2.jpg"
-        sx={{ width: 26, height: 26 }}
+        sx={{ width: 24, height: 24 }}
       />
    </Stack>
   );

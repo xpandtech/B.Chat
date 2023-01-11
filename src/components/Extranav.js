@@ -4,6 +4,7 @@ import './ExtraNav.css';
 import Agent from './subcomp/Agent';
 import Avtar from './subcomp/Avtar';
 import ExtraNavicons from './subcomp/ExtraNavicons';
+import Timer from './subcomp/Timer';
 
 
 
@@ -14,6 +15,7 @@ const Extranav = () => {
       <Agent/>
       <Avtar/>
       <ExtraNavicons/>
+      <Timer/>
 
     </div>
     

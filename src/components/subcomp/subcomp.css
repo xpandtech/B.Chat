@@ -2,14 +2,16 @@
   height: 30px;
 }  
 
-
+#demo-simple-select-helper-label{
+margin-top: -11px;
+}
 .Avt-size{
-  margin-left: 170px;
-  margin-top: -45px;
+  margin-left: 140px;
+  margin-top: -4px;
 }
 .Book-mark{
   margin-left: 280px;
-  margin-top: -26px;
+  margin-top: -22px;
 }
 .chat-bot{
   margin-left: 390px;
