@@ -1,7 +1,7 @@
 import React from 'react'
 import { ChatList } from 'react-chat-engine';
 
-const ChatList = () => {
+const Chatlist = () => {
   return (
     <div>
 
@@ -11,4 +11,4 @@ const ChatList = () => {
   )
 }
 
-export default ChatList;
+export default Chatlist;
