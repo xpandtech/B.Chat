@@ -15,6 +15,7 @@ const MyChat = () => {
     <div className="Main-page">
     <NavBar/>
     <ChatEngine
+    
       height="90vh"
       projectID={projectID}
       userName={localStorage.getItem('username')}
