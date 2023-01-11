@@ -1,7 +1,7 @@
 import MyMessage from './MyMessage';
 import TheirMessage from './TheirMessage';
 import MessageForm from './MessageForm';
-import Extranav from './Extranav';
+import Extranav from './ExtraNav';
 
 const ChatFeed = (props) => {
   const { chats, activeChat, userName, messages } = props;
