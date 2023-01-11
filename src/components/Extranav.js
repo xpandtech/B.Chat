@@ -6,7 +6,7 @@ import ExtraNavicons from './subcomp/ExtraNavicons';
 
 
 
-const Extranav = () => {
+const ExtraNav = () => {
   return (
     <>
       <div className='extnav'>
@@ -21,4 +21,4 @@ const Extranav = () => {
   )
 }
 
-export default Extranav;
+export default ExtraNav;
