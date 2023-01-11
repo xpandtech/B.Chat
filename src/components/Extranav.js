@@ -1,5 +1,4 @@
 import React from 'react';
-import { Avatar } from 'react-chat-engine';
 import './comp.css';
 import Agent from './subcomp/Agent';
 import Avtar from './subcomp/Avtar';

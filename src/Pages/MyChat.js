@@ -1,7 +1,7 @@
 import { ChatEngine } from 'react-chat-engine';
 import ChatFeed from '../components/ChatFeed';
 import LoginForm from '../components/LoginForm';
-import NavBar from '../components/NavBar'
+import Navbar from '../components/Navbar'
 import './MyChat.css';
 
 
@@ -13,7 +13,7 @@ const MyChat = () => {
   return (
 
     <div className="Main-page">
-    <NavBar/>
+    <Navbar/>
     <ChatEngine
       height="90vh"
       projectID={projectID}
