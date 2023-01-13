@@ -99,3 +99,7 @@
   left: calc(50vw - 33px);
   top: calc(50vh - 22px);
 }
+
+.ce-settings{
+  background-color: #002766;
+}
