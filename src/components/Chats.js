@@ -2,7 +2,7 @@ import React from "react"
 import { useHistory } from "react-router-dom"
 import { ChatEngine } from 'react-chat-engine'
 import { auth } from "../firebase"
-import NavBar from "./NavBar"
+
 import { useAuth } from "../contexts/AuthContext";
 import { useEffect, useRef, useState } from "react"
 import axios from "axios";
@@ -57,8 +57,16 @@ export default function Chats() {
   }, [user, history])
 
   return (
-    <>
-      <NavBar/>
+    <div className='chats-page'>
+      <div className='nav-bar'>
+        <div className='logo-tab'>
+          B.Chat
+        </div>
+
+        <div onClick={handleLogout} className='logout-tab'>
+          Logout
+        </div>
+      </div>
 
       <ChatEngine 
         height='calc(100vh - 66px)'
@@ -66,6 +74,6 @@ export default function Chats() {
         userName='jone'
         userSecret='12345'
       />
-    </>
+    </div>
   )
-};
+}
