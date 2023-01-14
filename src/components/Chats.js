@@ -2,13 +2,11 @@ import React from "react"
 import { useHistory } from "react-router-dom"
 import { ChatEngine } from 'react-chat-engine'
 import { auth } from "../firebase"
+import NavBar from './subcomp/NavBar'
 
 import { useAuth } from "../contexts/AuthContext";
 import { useEffect, useRef, useState } from "react"
 import axios from "axios";
-import NavBar from "./subcomp/NavBar";
-
-
 
 export default function Chats() {
   const history = useHistory()
@@ -19,8 +17,6 @@ export default function Chats() {
     await auth.signOut()
     history.push("/")
   }
-
-  
 
   const getFile = async (url) => {
     const response = await fetch(url);
@@ -62,15 +58,13 @@ export default function Chats() {
   }, [user, history])
 
   return (
-    <div className='chats-page'>
-    <NavBar />
- 
-        <div>
-          
-         <div onClick={handleLogout} className='logout-tab'>
+  <>
+  <NavBar/>
+
+        <div onClick={handleLogout} className='logout-tab'>
           Logout
         </div>
-      </div>
+      
 
       <ChatEngine 
         height='calc(100vh - 66px)'
@@ -78,6 +72,8 @@ export default function Chats() {
         userName='jone'
         userSecret='12345'
       />
-    </div>
+    
+
+    </>
   )
 }

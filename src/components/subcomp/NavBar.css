@@ -1,16 +1,16 @@
 .navbar{
-	background-color: rgb(37, 136, 172)!important;
+	background-color: rgb(35, 66, 113)!important;
 	height: 4em;
-    justify-content: right;
+  justify-content: right;
 	
 }
-.outbox{
+.broadcast{
     margin-left: 639px;
     margin-top:-23px
 
 }
 
-.inbox{
+.dashboard{
     margin-left: 399px;
     margin-top:-11.5px
 }
@@ -19,7 +19,7 @@
     margin-top: -60px!important;
 }
 
- .broadcast{
+ .chats{
     margin-left: 499px;
-    margin-top:-20px
+    margin-top:-20px;
  }
