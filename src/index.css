@@ -22,18 +22,18 @@
   background-color: #002766;
 }
 
-.logo-tab {
+/* .logo-tab {
   position: absolute;
-  left: 22px;
+  left: 26px;
   top: 12px;
   font-size: 32px;
   font-weight: 700;
   color: white;
-}
+} */
 
 .logout-tab {
   position: absolute;
-  top: 22px;
+  top: 40px;
   right: 22px;
   color: white;
   cursor: pointer;

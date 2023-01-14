@@ -1,0 +1,25 @@
+.navbar{
+	background-color: rgb(37, 136, 172)!important;
+	height: 4em;
+    justify-content: right;
+	
+}
+.outbox{
+    margin-left: 599px;
+    margin-top:-42px
+
+}
+
+.inbox{
+    margin-left: 399px;
+    margin-top:-32px
+}
+.head{
+    margin-left: 10px;
+    margin-top: -60px!important;
+}
+
+ .broadcast{
+    margin-left: 479px;
+    margin-top:-44px
+ }

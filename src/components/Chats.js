@@ -6,6 +6,9 @@ import { auth } from "../firebase"
 import { useAuth } from "../contexts/AuthContext";
 import { useEffect, useRef, useState } from "react"
 import axios from "axios";
+import NavBar from "./subcomp/NavBar";
+
+
 
 export default function Chats() {
   const history = useHistory()
@@ -16,6 +19,8 @@ export default function Chats() {
     await auth.signOut()
     history.push("/")
   }
+
+  
 
   const getFile = async (url) => {
     const response = await fetch(url);
@@ -58,12 +63,11 @@ export default function Chats() {
 
   return (
     <div className='chats-page'>
-      <div className='nav-bar'>
-        <div className='logo-tab'>
-          B.Chat
-        </div>
-
-        <div onClick={handleLogout} className='logout-tab'>
+    <NavBar />
+ 
+        <div>
+          
+         <div onClick={handleLogout} className='logout-tab'>
           Logout
         </div>
       </div>
