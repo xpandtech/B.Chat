@@ -2,7 +2,8 @@ import React from "react"
 import { useHistory } from "react-router-dom"
 import { ChatEngine } from 'react-chat-engine'
 import { auth } from "../firebase"
-import NavBar from './subcomp/NavBar'
+import Navbar from './subcomp/Navbar'
+import ChatFeed from "./subcomp/ChatFeed"
 
 import { useAuth } from "../contexts/AuthContext";
 import { useEffect, useRef, useState } from "react"
@@ -59,7 +60,7 @@ export default function Chats() {
 
   return (
   <>
-  <NavBar/>
+  <Navbar/>
 
         <div onClick={handleLogout} className='logout-tab'>
           Logout
@@ -71,6 +72,7 @@ export default function Chats() {
         projectID='eec11bf8-0c40-4f33-a078-d09551198bc7'
         userName='jone'
         userSecret='12345'
+        renderChatFeed={(chatAppState) => <ChatFeed {...chatAppState} />}
       />
     
 
