@@ -4,6 +4,9 @@ import { ChatEngine } from 'react-chat-engine'
 import { auth } from "../firebase"
 import Navbar from './subcomp/Navbar'
 import ChatFeed from "./subcomp/ChatFeed"
+import ChatList from "./subcomp/ChatList"
+
+
 
 import { useAuth } from "../contexts/AuthContext";
 import { useEffect, useRef, useState } from "react"
@@ -73,9 +76,7 @@ export default function Chats() {
         userName='jone'
         userSecret='12345'
         renderChatFeed={(chatAppState) => <ChatFeed {...chatAppState} />}
-      />
-    
-
+        renderChatList={(chatAppState) => <ChatList {...chatAppState} />}      />
     </>
   )
 }

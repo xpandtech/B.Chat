@@ -43,4 +43,15 @@ margin-top: -11px;
     margin-left: 499px;
     margin-top:-20px;
  }
+ .button{
+  background-color:green;
+  border: none;
+  color: rgb(248, 39, 39);
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+ }
 

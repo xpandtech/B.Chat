@@ -10,7 +10,7 @@ const Navbar = () => {
 
     <div className='navbar'>
     <img className='dashboard' src={dashboard} alt='1'/>
-     
+     <button>click</button>
      </div>
 
 
