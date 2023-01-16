@@ -4,9 +4,9 @@ import _ from 'lodash'
 
 import Loading from './Loading'
 
-// import { Boop } from '../../components/Effects'
+import { Boop } from '../../components/Effects'
 
-// import { getDateTime } from '../../Utilities/timezone'
+import { getDateTime } from '../../Utilities/timezone'
 
 const { htmlToText } = require('html-to-text')
 
