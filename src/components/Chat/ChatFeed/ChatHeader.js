@@ -5,6 +5,7 @@ import { setConfiguration } from "react-grid-system";
 import empty from "../../../images/empty.png";
 import { MenuOutlined } from "@ant-design/icons";
 import { Avatar } from 'react-chat-engine'
+import SelectBox from "./HeaderComp/SelectBox";
 
 setConfiguration({ maxScreenClass: "xl", gutterWidth: 0 });
 
@@ -50,14 +51,14 @@ export const ChatHeader = (props) => {
         return d
     }
 
-    function timeSinceDate(date) {
-        if (!date) return ''
-        let convertedDate = getDateTime(date)
-        let sent = convertedDate.toString()
-        const dayStr = sent.substr(0, 10)
-        const timeStr = sent.substr(15, 6)
-        return `${dayStr} at ${timeStr}`
-    }
+    // function timeSinceDate(date) {
+    //     if (!date) return ''
+    //     let convertedDate = getDateTime(date)
+    //     let sent = convertedDate.toString()
+    //     const dayStr = sent.substr(0, 10)
+    //     const timeStr = sent.substr(15, 6)
+    //     return `${dayStr} at ${timeStr}`
+    // }
     return (
         <Row className="ce-chat-title" style={styles.titleSection}>
 
@@ -83,6 +84,7 @@ export const ChatHeader = (props) => {
                         username={otherPerson.person.username}
                         is_online={otherPerson.person.is_online}
                     />
+                    
                 ) : (
                     <img
                         src={empty}
@@ -90,6 +92,7 @@ export const ChatHeader = (props) => {
                         style={{ borderRadius: "50%", width: "40px" }}
                         alt=""
                     />
+                    
                 )}
                 <div className="ce-chat-header-container">
                     <div
@@ -98,16 +101,22 @@ export const ChatHeader = (props) => {
                         id={`ce-chat-feed-title-${title}`}
                     >
                         {title}
+                        
+                    
                     </div>
 
-                    <div style={styles.subtitleText} className="ce-chat-subtitle-text">
+                  <div style={styles.subtitleText} className="ce-chat-subtitle-text">
 
-                        {userStatus ? userStatus : (
+                      
+
+
+                       {/*   {userStatus ? userStatus : (
                             chat.last_message.created && chat.last_message.created.length > 0 ?
                                 `Active ${timeSinceDate(chat.last_message.created)}` :
                                 'Say hello!'
-                        )}
-                    </div>
+                        )}     */}
+                        </div>
+                        
                 </div>
             </Col>
         </Row>
