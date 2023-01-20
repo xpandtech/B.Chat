@@ -71,14 +71,14 @@ export const ChatHeader = (props) => {
                 />
             </div>
 
-            <Col
+            {/* <Col
                 xs={8}
                 sm={12}
                 style={styles.titleContainer}
                 className="ce-chat-title-container"
-            >
+            > */}
 
-                {otherPerson && otherPerson.person.avatar ? (
+                {/* {otherPerson && otherPerson.person.avatar ? (
                     <Avatar
                         avatar={otherPerson.person.avatar ? otherPerson.person.avatar : ""}
                         username={otherPerson.person.username}
@@ -93,7 +93,7 @@ export const ChatHeader = (props) => {
                         alt=""
                     />
                     
-                )}
+                )} */}
                 <div className="ce-chat-header-container">
                     <div
                         style={styles.titleText}
@@ -110,7 +110,7 @@ export const ChatHeader = (props) => {
                       
 
 
-                       {/*   {userStatus ? userStatus : (
+                         {/* {userStatus ? userStatus : (
                             chat.last_message.created && chat.last_message.created.length > 0 ?
                                 `Active ${timeSinceDate(chat.last_message.created)}` :
                                 'Say hello!'
@@ -118,7 +118,7 @@ export const ChatHeader = (props) => {
                         </div>
                         
                 </div>
-            </Col>
+            {/* </Col> */}
         </Row>
     );
 };
