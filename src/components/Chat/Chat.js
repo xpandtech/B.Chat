@@ -12,6 +12,7 @@ import MessageBubble from './ChatFeed/Bubble/MessageBubble'
 import loadingAnimation from "../../images/loading.svg";
 import ChatList from './ChatList/ChatList'
 
+
 export const Chat = () => {
   const { userObject, convertedName } = useAuth();
   const [newAccountStatus, setNewAccountStatus] = useState(false);
@@ -90,7 +91,7 @@ export const Chat = () => {
           renderNewChatForm={(creds) => { return <NewChatForm creds={creds} /> }}
           renderChatHeader={(creds) => { return <ChatHeader creds={creds} /> }}
           renderIsTyping={(typers) => { return <IsTyping typers={typers} /> }}
-          renderChatSettings={() => { return <ChatSettingsBox /> }}
+          renderChatSettings={() => { return <ChatSettingsBox/> }}
           renderNewMessageForm={(creds, chatId) => { return <NewMessageForm creds={creds} chatId={chatId} /> }}
           renderMessageBubble={(creds, chat, lastMessage, message, nextMessage) => { return <MessageBubble creds={creds} chat={chat} lastMessage={lastMessage} message={message} nextMessage={nextMessage} /> }}
         />

@@ -3,7 +3,8 @@
 .chat-left-wing {
   display: flex !important;
   height: 100% !important;
-  width: var(--left-rail-width) !important;
+  width: 330px!important;
+  width: 330px !important;
   border-radius: 20x 0 0 20 !important;
   position: relative !important;
 }
@@ -20,7 +21,7 @@
   width: var(--bar-width) !important;
   display: flex !important;
   flex-direction: column !important;
-  max-width: 60px !important;
+  max-width: 50px !important;
   border-radius: 15px 0 0 15px !important;
   max-height: 100% !important;
   align-items: center !important;
@@ -78,7 +79,7 @@
 }
 
 .ce-chat-list {
-  max-width: var(--chat-list-width) !important;
+  max-width:270px !important;
   width: var(--chat-list-width) !important;
   overflow: hidden !important;
 }
@@ -358,6 +359,7 @@
   border-width: 0 !important;
   display: flex;
   flex-direction: column;
+  
 }
 
 .image-input {

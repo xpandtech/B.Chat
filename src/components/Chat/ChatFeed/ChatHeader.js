@@ -4,8 +4,10 @@ import { Row, Col } from "react-grid-system";
 import { setConfiguration } from "react-grid-system";
 import empty from "../../../images/empty.png";
 import { MenuOutlined } from "@ant-design/icons";
-import { Avatar } from 'react-chat-engine'
-import SelectBox from "./HeaderComp/SelectBox";
+// import { Avatar } from 'react-chat-engine'
+// import SelectBox from "./HeaderComp/SelectBox";
+import Avatar from '@mui/material/Avatar';
+import SelectInput from "./HeaderComp/SelectInput";
 
 setConfiguration({ maxScreenClass: "xl", gutterWidth: 0 });
 
@@ -70,7 +72,9 @@ export const ChatHeader = (props) => {
                     }}
                 />
             </div>
-
+            <Avatar alt="Travis Howard" src="https://mui.com/static/images/avatar/2.jpg" />
+            <SelectInput/>
+            
             {/* <Col
                 xs={8}
                 sm={12}

@@ -69,6 +69,8 @@
   border-width: 0 0 1px 0 !important;
   border-color: var(--border-color);
   border-style: solid !important;
+  height:70px;
+
 
   > img:nth-child(2) {
     width: 50px !important;
@@ -124,8 +126,8 @@
   background-color: var(--bg-input) !important;
   border-radius: 25px !important;
   padding: 0 !important;
-  max-width: 620px !important;
-  width: 620px !important;
+  max-width: 420px !important;
+  width: 420px !important;
   margin: auto;
   margin-bottom: 20px !important;
   display: flex !important;

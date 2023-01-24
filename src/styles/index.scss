@@ -6,11 +6,11 @@
 @import "chatList";
 
 :root {
-  --app-width: 1085px;
-  --left-rail-width: 350px;
+  --app-width: 95%;
+  --left-rail-width: 330px;
   --bar-width: 60px;
   --chat-list-width: 290px;
-  --chat-feed-width: 720px;
+  --chat-feed-width: 50%;
   --right-rail-width: 10px;
   --margin-top: 7em;
   --mobile-toggler: rgba(255, 255, 255, 0.685);
@@ -55,11 +55,11 @@
 }
 
 .light {
-  --app-width: 1085px;
+  --app-width: 95%;
   --left-rail-width: 350px;
   --bar-width: 60px;
   --chat-list-width: 290px;
-  --chat-feed-width: 720px;
+  --chat-feed-width: 50%;
   --right-rail-width: 10px;
   --mobile-toggler: #e8eaf3;
   --bg-color: #ffffff;
@@ -197,7 +197,7 @@ img {
 }
 
 .chat-settings-box {
-  width: 16px !important;
+  width: 160px !important;
   min-width: 15x !important;
   height: 78px !important;
   border-style: solid !important;
@@ -225,11 +225,11 @@ img {
 
 @media only screen and (max-width: 1600px) {
   :root {
-    --app-width: 1090px;
+    --app-width: 95%;
     --left-rail-width: 350px;
     --bar-width: 60px;
     --chat-list-width: 290px;
-    --chat-feed-width: 720px;
+    --chat-feed-width: 50%;
     --right-rail-width: 10px;
     --margin-top: 3em;
   }
@@ -244,11 +244,11 @@ img {
 }
 @media only screen and (max-width: 1150px) {
   :root {
-    --app-width: 100%;
+    --app-width: 95%;
     --left-rail-width: 350px;
     --bar-width: 60px;
     --chat-list-width: 290px;
-    --chat-feed-width: 100%;
+    --chat-feed-width: 50%;
     --right-rail-width: 0px;
     --margin-top: 0em;
   }
@@ -262,8 +262,8 @@ img {
     flex: auto !important;
   }
   .chat-container > div:nth-child(1) > div:nth-child(2) {
-    width: 100% !important;
-    max-width: 100% !important;
+    width: 95% !important;
+    max-width: 95% !important;
   }
   .ce-message-form {
     width: 90% !important;
