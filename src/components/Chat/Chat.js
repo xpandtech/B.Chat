@@ -4,7 +4,7 @@ import { useAuth } from "context/AuthContext.js";
 import ChatCard from "./ChatList/ChatCard";
 import ChatHeader from "./ChatFeed/ChatHeader";
 import IsTyping from "./ChatFeed/IsTyping";
-import ChatSettingsBox from "./ChatSettings/ChatSettingsBox";
+import ChatSettingsColumn from "./ChatSettings/ChatSettingsColumn";
 import axios from "axios";
 import NewChatForm from './ChatList/NewChatForm'
 import NewMessageForm from './ChatFeed/NewMessageForm/NewMessageForm'
@@ -91,7 +91,7 @@ export const Chat = () => {
           renderNewChatForm={(creds) => { return <NewChatForm creds={creds} /> }}
           renderChatHeader={(creds) => { return <ChatHeader creds={creds} /> }}
           renderIsTyping={(typers) => { return <IsTyping typers={typers} /> }}
-          renderChatSettings={() => { return <ChatSettingsBox/> }}
+          renderChatSettings={() => { return <ChatSettingsColumn/> }}
           renderNewMessageForm={(creds, chatId) => { return <NewMessageForm creds={creds} chatId={chatId} /> }}
           renderMessageBubble={(creds, chat, lastMessage, message, nextMessage) => { return <MessageBubble creds={creds} chat={chat} lastMessage={lastMessage} message={message} nextMessage={nextMessage} /> }}
         />
