@@ -16,7 +16,7 @@ import ChatList from './ChatList/ChatList'
 export const Chat = () => {
   const { userObject, convertedName } = useAuth();
   const [newAccountStatus, setNewAccountStatus] = useState(false);
-  const [chatHeight, setChatHeight] = useState("630px");
+  const [chatHeight, setChatHeight] = useState("752px");
 
   useEffect(() => {
     if (window.screen.width < 1150) {
@@ -82,7 +82,7 @@ export const Chat = () => {
       {convertedName && userObject && newAccountStatus ? (
         <ChatEngine
           offset={2}
-          projectID='6d35df28-8185-42aa-a8a3-0a6d304bfef8'
+          projectID="72409329-92e8-45bf-8c0e-3545d82f0bad"
           userName='John'
           userSecret='123'
           height={chatHeight}

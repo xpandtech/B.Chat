@@ -12,7 +12,9 @@
   --chat-list-width: 290px;
   --chat-feed-width: 50%;
   --right-rail-width: 22%!important;
-  --margin-top: 7em;
+  --margin-top: 1em;
+  --margin-bottom:1em!important;
+
   --mobile-toggler: rgba(255, 255, 255, 0.685);
   --bg-color: #d3d8e4de;
   --app-bg-color: #404757;
@@ -231,7 +233,8 @@ img {
     --chat-list-width: 290px;
     --chat-feed-width: 50%;
     --right-rail-width: 10px;
-    --margin-top: 3em;
+    --margin-top: 1em;
+    --margin-bottom:1em!important;
   }
   .auth-form {
     margin-top: 9em !important;
@@ -239,7 +242,9 @@ img {
 }
 @media only screen and (max-width: 1400px) {
   :root {
-    --margin-top: 3em;
+    --margin-top: 1em;
+    --margin-bottom:1em!important;
+  
   }
 }
 @media only screen and (max-width: 1150px) {
@@ -250,7 +255,9 @@ img {
     --chat-list-width: 290px;
     --chat-feed-width: 50%;
     --right-rail-width: 0px;
-    --margin-top: 0em;
+    --margin-top: 1em;
+    --margin-bottom:1em!important;
+  
   }
 
   .chat-container > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) {
