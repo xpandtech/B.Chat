@@ -122,7 +122,7 @@
   margin-right: 5px !important;
 }
 
-.ce-message-input-form {
+. {
   background-color: var(--bg-input) !important;
   border-radius: 25px !important;
   padding: 0 !important;
@@ -132,6 +132,7 @@
   margin-bottom: 20px !important;
   display: flex !important;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+ 
 
   &:focus {
     background-color: #5e6475 !important;
@@ -147,7 +148,7 @@
   line-break: auto !important;
   max-height: 29px !important;
   width: 80% !important;
-  max-width: 80% !important;
+  max-width: 95% !important;
 }
 @media only screen and (max-width: 900px) {
   #msg-textarea {
@@ -162,7 +163,7 @@
   }
 }
 #ce-send-message-button {
-  margin-left: 15px !important;
+  margin-left: 130px !important;
   width: 40px !important;
   height: 40px !important;
   border-radius: 50% !important;

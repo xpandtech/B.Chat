@@ -9,7 +9,7 @@ export default class MessageInput extends Component {
 
     resize() {
         var textarea = document.getElementById("msg-textarea");
-        textarea.style.height = "";
+        textarea.style.height = "160px";
         textarea.style.height = Math.min(textarea.scrollHeight, 150) + "px";
         this.setState({ height: Math.min(textarea.scrollHeight, 150) })
     }
