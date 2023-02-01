@@ -16,12 +16,13 @@ import ChatList from './ChatList/ChatList'
 export const Chat = () => {
   const { userObject, convertedName } = useAuth();
   const [newAccountStatus, setNewAccountStatus] = useState(false);
-  const [chatHeight, setChatHeight] = useState("752px");
+  const [chatHeight, setChatHeight] = useState("95vh");
 
   useEffect(() => {
-    if (window.screen.width < 1150) {
+    if (window.screen.width < 1200) {
       setChatHeight("100vh")
     }
+
   }, [])
 
   useEffect(() => {
