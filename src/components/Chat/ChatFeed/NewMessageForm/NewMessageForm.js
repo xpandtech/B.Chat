@@ -60,7 +60,7 @@ const NewMessageForm = () => {
     
     // TODO: Should be in Text Area Input
     var textarea = document.getElementById("msg-textarea")
-    textarea.style.height = "54px"
+    textarea.style.height = "24px"
 
     let newSendingMessages = {...sendingMessages}
     newSendingMessages[data.custom_json.sender_id] = data
