@@ -71,7 +71,7 @@ const NewMessageForm = () => {
     <div 
       id='msg-form-container'
       style={styles.NewMessageFormContainer}
-      className='ce-message-form-container'
+      className='-container'
     >
       <FileRow files={state.attachments} onRemove={(i) => onRemove(i)} />
 

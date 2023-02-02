@@ -162,7 +162,7 @@
   }
 }
 #ce-send-message-button {
-  margin-left: 15px !important;
+  margin-right: 65px !important;
   width: 40px !important;
   height: 40px !important;
   border-radius: 50% !important;
@@ -263,6 +263,8 @@ div.ce-avatar-dot:nth-child(1) {
   display: flex !important;
   flex-direction: row !important;
   height: 70px !important;
+  margin-left:30px!important;
+
 }
 
 .ce-message-form {
