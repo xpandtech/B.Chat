@@ -4,6 +4,7 @@
 @import "auth";
 @import "chatFeed";
 @import "chatList";
+@import "chatSettingBox";
 
 :root {
   --app-width: 95%;
@@ -273,7 +274,7 @@ img {
     max-width: 95% !important;
   }
   .ce-message-form {
-    width: 90% !important;
+    width: 95% !important;
   }
   .ce-message-input-form {
     background-color: var(--bg-input) !important;
@@ -300,7 +301,7 @@ img {
     overflow: scroll !important;
   }
   .ce-message-form {
-    margin: auto !important;
+    // margin: auto !important;
   }
   .chat-container > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) {
     display: none !important;
@@ -572,5 +573,18 @@ img {
     width: 20% !important;
     text-align: right !important;
   }
+  .ce-settings-column{
+    display:flex;
+     background-color: rgb(247, 6, 6)!important;
+     color: white !important;
+     display: flex !important;
+     height: 0px;
+     margin-left: 20px !important;
+     z-index: 100 !important;
+     border-color: var(--border-color);
+     border-style: solid !important;
+     border-bottom-width: var(--header-border) !important;
+     border-width: 0 0 0 0 !important;
+ }
   
 }
