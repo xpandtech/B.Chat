@@ -64,6 +64,7 @@
 .mobile-toggler {
   display: none !important;
 }
+
 .ce-chat-title {
   flex-wrap: nowrap !important;
   border-width: 0 0 1px 0 !important;
@@ -126,8 +127,8 @@
   background-color: var(--bg-input) !important;
   border-radius: 25px !important;
   padding: 0 !important;
-  max-width: 420px !important;
-  width: 420px !important;
+  max-width: 570px !important;
+  width: 510px !important;
   margin: auto;
   margin-bottom: 20px !important;
   display: flex !important;
@@ -162,7 +163,7 @@
   }
 }
 #ce-send-message-button {
-  margin-right: 65px !important;
+  margin-right: 5px !important;
   width: 40px !important;
   height: 40px !important;
   border-radius: 50% !important;
@@ -282,4 +283,16 @@ div.ce-avatar-dot:nth-child(1) {
 #ce-ice-breaker-gif {
   max-width: 100px !important;
   margin-top: 30px !important;
+}
+.icons-set{
+  margin-left:300px;
+  margin-top: 20px;
+}
+
+.icons-setA{
+  margin-right:60px;
+  margin-top: 20px;
+}
+.avt{
+  margin-left:70px;
 }

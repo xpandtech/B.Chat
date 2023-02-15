@@ -1,18 +1,36 @@
-import React from 'react'
-import Avatar from '@mui/material/Avatar';
+import ChatSelect from './ChatSelect';
+import InputCross from './InputCross';
+import TagSection from './Tag';
+import { BsThreeDots } from 'react-icons/bs';
+import React, { useEffec, useState } from 'react'
+// import InputSearch from './InputSearch';
 
+
+ 
 const ChatSettingsColumn = () => {
+  
   return (
-<<<<<<< HEAD
-    <div className='settings-column'>
-      <Avatar  className='avt' alt="Travis Howard" src="https://mui.com/static/images/avatar/2.jpg" />
-=======
-    <div>
-      <Avatar alt="Travis Howard" src="https://mui.com/static/images/avatar/2.jpg" />
->>>>>>> 9eacd87ea48bb0d7be094c184955b1ee9969138f
+    <>
 
-    </div>
+<div className='settings-column'>
+
+<BsThreeDots className='dots'/>
+<img src="https://static.thenounproject.com/png/1136207-200.png" className='image'/>
+<p className='jone-numb'>Jone<span/>Doe</p>
+<p className='number'>+919876543210</p>
+<ChatSelect/>
+<p className='para'>Cotact<span/>Customer<span/>Parameters</p>
+<InputCross/>
+<p className='para'>Tag</p>
+<TagSection/>
+
+
+{/* <InputSearch/> */}
+</div>
+
+    </>
+    
   )
 }
 
-export default ChatSettingsColumn
+export default ChatSettingsColumn;

@@ -35,7 +35,7 @@ export const Chat = () => {
       method: "post",
       url: "https://api.chatengine.io/users/",
       headers: {
-        "PRIVATE-KEY": '6d9ca340-8d81-452a-842e-eb2f902a1fb4',
+        "PRIVATE-KEY": '22222589-8c5e-4014-a2b6-3ca8ef7bf45a',
       },
       data: data,
     };
@@ -83,7 +83,7 @@ export const Chat = () => {
       {convertedName && userObject && newAccountStatus ? (
         <ChatEngine
           offset={2}
-          projectID="72409329-92e8-45bf-8c0e-3545d82f0bad"
+          projectID="14aed3fc-5057-46b4-b57c-8d0b233bd479"
           userName='John'
           userSecret='123'
           height={chatHeight}

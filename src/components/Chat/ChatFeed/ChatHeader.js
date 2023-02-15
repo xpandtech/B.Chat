@@ -8,6 +8,9 @@ import { MenuOutlined } from "@ant-design/icons";
 // import SelectBox from "./HeaderComp/SelectBox";
 import Avatar from '@mui/material/Avatar';
 import SelectInput from "./HeaderComp/SelectInput";
+import { PushPin } from '@mui/icons-material';
+import{MoreHoriz} from '@mui/icons-material';
+
 
 setConfiguration({ maxScreenClass: "xl", gutterWidth: 0 });
 
@@ -72,8 +75,10 @@ export const ChatHeader = (props) => {
                     }}
                 />
             </div>
-            <Avatar alt="Travis Howard" src="https://mui.com/static/images/avatar/2.jpg" />
-            <SelectInput/>
+            <Avatar className="avt" src="https://mui.com/static/images/avatar/2.jpg" />
+            <SelectInput className="icon-setA"/>
+            <PushPin className="icon-setA"/>
+            <MoreHoriz className="icons-set"/>
             
             {/* <Col
                 xs={8}
@@ -122,6 +127,7 @@ export const ChatHeader = (props) => {
                         </div>
                         
                 </div>
+
             {/* </Col> */}
         </Row>
     );
