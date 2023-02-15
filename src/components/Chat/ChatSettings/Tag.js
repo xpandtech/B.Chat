@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import TagsInput from 'react-tagsinput';
-import 'react-tagsinput/react-tagsinput.css';
+// import 'react-tagsinput/react-tagsinput.css';
 
 const TagSection = () => {
   const [tags, setTags] = useState([]);
@@ -10,7 +10,7 @@ const TagSection = () => {
   }
 
   return (
-    <TagsInput value={tags} onChange={handleChange} />
+    <TagsInput value={tags} onChange={handleChange}/>
   );
 }
 
