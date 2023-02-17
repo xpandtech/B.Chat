@@ -317,6 +317,7 @@ img {
 .settings-column{
     height: 280px;
 } 
+
 }
 }
 @media only screen and (max-width: 1400px) {
@@ -737,16 +738,83 @@ img {
 
 }
 
+
+body {
+  background-color: #f7f7f7;
+  font-family: Helvetica, Arial, Verdana;
+  font-size: 16px;
+}
+// a {
+//   text-decoration: none;
+// }
+// a:hover {
+//   color: #00aeef;
+// }
+h1 {
+  font-size: 1.7em;
+  text-align: center;
+}
+h2 {
+  font-size: 1.2em;
+}
+h1,
+h2 {
+  line-height: 1.7em;
+  margin: 0;
+}
+ul {
+  list-style: none;
+  list-style-position: outside;
+}
+ul li {
+  line-height: 20px;
+  margin: 10px 0;
+  text-align: left;
+}
+input[type="text"],
+input[type="search"] {
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+  outline: 0;
+  border: 1px solid #999;
+  border-radius: 10px;
+}
+input[type="text"]:focus,
+input[type="search"]:focus {
+  border: 1px solid #777;
+}
+input[type="search"] {
+  -moz-appearance: textfield;
+  -webkit-appearance: textfield;
+}
+form .clear-text {
+  position: absolute;
+  color: #555;
+  font-size: 28px;
+  top: 4px;
+  right: -10px;
+}
+.main {
+  position: relative;
+  margin-right: -60px;
+  padding: 10px;
+  width: 90%;
+}
+
+
+
+//imput multple clr cross option.
 .react-tagsinput {
   background-color: #404757!important;
-  border: 1px solid #404757!important;
-  overflow: hidden;
+  // border: 1px solid #404757!important;
   padding-left: 5px;
   padding-top: 5px;
   margin-right: 5px;
   margin-left: 22px;
+  width:75%;
   
-}
+  }
 
 .react-tagsinput--focused {
   border-color: #6864d8;
@@ -764,7 +832,10 @@ img {
   margin-bottom: 5px;
   margin-right: 5px;
   padding: 5px;
+  
 }
+
+// Input cross 
 
 .react-tagsinput-remove {
   cursor: pointer;
@@ -781,10 +852,9 @@ img {
   color: rgb(244, 232, 232) !important;
   font-family: sans-serif;
   font-size: 13px;
-  font-weight: 400;
+  font-weight: 200;
   margin-bottom: 6px;
-  margin-top: 1px;
+  margin-top: 0px;
   outline: none;
   padding: 5px;
-  width: 80px;
 }

@@ -1,10 +1,8 @@
 import ChatSelect from './ChatSelect';
-import InputCross from './InputCross';
 import TagSection from './Tag';
 import { BsThreeDots } from 'react-icons/bs';
 import React, { useEffec, useState } from 'react'
-// import InputSearch from './InputSearch';
-
+import InputTextWithClearButton from './TextRequired'
 
  
 const ChatSettingsColumn = () => {
@@ -20,12 +18,12 @@ const ChatSettingsColumn = () => {
 <p className='number'>+919876543210</p>
 <ChatSelect/>
 <p className='para'>Cotact<span/>Customer<span/>Parameters</p>
-<InputCross/>
+<InputTextWithClearButton/>
 <p className='para'>Tag</p>
-<TagSection/>
+
+<TagSection className="tagsec"/>
 
 
-{/* <InputSearch/> */}
 </div>
 
     </>

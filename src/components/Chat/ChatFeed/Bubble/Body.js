@@ -10,4 +10,4 @@ const Body = props => {
     ) 
 }
 
-export default Body
+export default Body;
