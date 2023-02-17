@@ -1,33 +1,24 @@
-import * as React from 'react';
-import InputLabel from '@mui/material/InputLabel';
-import MenuItem from '@mui/material/MenuItem';
-import FormControl from '@mui/material/FormControl';
-import Select from '@mui/material/Select';
+import React, { useState } from 'react';
 
-export default function SelectInput() {
-  const [age, setAge] = React.useState('');
+const SelectInput = () => {
+  const [value, setValue] = useState('');
 
   const handleChange = (event) => {
-    setAge(event.target.value);
+    console.log(`Selected ${event.target.value}`);
+    setValue(event.target.value);
   };
 
   return (
-    <FormControl sx={{ m: 1, minWidth: 120 }} size="small">
-      <InputLabel id="demo-select-small">Age</InputLabel>
-      <Select
-        labelId="demo-select-small"
-        id="demo-select-small"
-        value={age}
-        label="Age"
-        onChange={handleChange}
-      >
-        <MenuItem value="">
-          <em>None</em>
-        </MenuItem>
-        <MenuItem value={10}>Ten</MenuItem>
-        <MenuItem value={20}>Twenty</MenuItem>
-        <MenuItem value={30}>Thirty</MenuItem>
-      </Select>
-    </FormControl>
+    <div className="select-operator">
+      <select value={value} onChange={handleChange}>
+        <option value="">Select Operator</option>
+        <option value="jack">Jack</option>
+        <option value="lucy">Lucy</option>
+        <option value="tom">Tom</option>
+      </select>
+    </div>
   );
-}
+};
+
+export default SelectInput;
+

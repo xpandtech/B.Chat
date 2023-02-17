@@ -3,26 +3,22 @@ import React, { useState } from 'react';
 const ChatSelect = () => {
   const [value, setValue] = useState('');
 
-  const onChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-    console.log(`selected ${e.target.value}`);
-    setValue(e.target.value);
+  const handleChange = (event) => {
+    console.log(`Selected ${event.target.value}`);
+    setValue(event.target.value);
   };
 
-  // const onSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
-  //   console.log('search:', e.target.value);
-  // };
-
   return (
-    <div className="select-container">
-      {/* <input type="text" placeholder="Search" onChange={onSearch} /> */}
-      <select value={value} onChange={onChange}>
-        <option value="">Select a person</option>
-        <option value="jack">Jack</option>
-        <option value="lucy">Lucy</option>
-        <option value="tom">Tom</option>
+    <div className="submit-as">
+      <select value={value} onChange={handleChange}>
+        <option value="">Submit as</option>
+        <option value="jack">Open</option>
+        <option value="lucy">Pending</option>
+        <option value="tom">Closed</option>
       </select>
     </div>
   );
 };
 
 export default ChatSelect;
+

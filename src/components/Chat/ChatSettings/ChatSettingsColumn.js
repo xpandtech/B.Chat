@@ -1,34 +1,36 @@
-import ChatSelect from './ChatSelect';
-import TagSection from './Tag';
-import { BsThreeDots } from 'react-icons/bs';
-import React, { useEffec, useState } from 'react'
-import InputTextWithClearButton from './TextRequired'
+import ChatSelect from "./ChatSelect";
+import TagSection from "./Tag";
+import React, { useEffec, useState } from "react";
+import InputTextWithClearButton from "./TextRequired";
+import Avatar from "@mui/material/Avatar";
 
- 
 const ChatSettingsColumn = () => {
-  
   return (
     <>
+      <div className="settings-column">
 
-<div className='settings-column'>
-
-<BsThreeDots className='dots'/>
-<img src="https://static.thenounproject.com/png/1136207-200.png" className='image'/>
-<p className='jone-numb'>Jone<span/>Doe</p>
-<p className='number'>+919876543210</p>
-<ChatSelect/>
-<p className='para'>Cotact<span/>Customer<span/>Parameters</p>
-<InputTextWithClearButton/>
-<p className='para'>Tag</p>
-
-<TagSection className="tagsec"/>
+      <Avatar
+        className="msg-user-avatar"
+        alt="Remy Sharp"
+        src="https://mui.com/static/images/avatar/1.jpg"
+        sx={{ width: 66, height: 66 }}
+      />
 
 
-</div>
+        <p className="msg-user-name">
+          John Doe
+        </p>
+        <p className="msg-user-number">+919876543210</p>
+        <ChatSelect />
+        <p className="customer-info"> Customer Info
+        </p>
+        <InputTextWithClearButton />
+        <p className="para">Tag</p>
 
+        <TagSection className="tagsec" />
+      </div>
     </>
-    
-  )
-}
+  );
+};
 
 export default ChatSettingsColumn;

@@ -1,3 +1,6 @@
+
+
+
 /* Chat Feed */
 
 .ce-chat-feed {
@@ -43,24 +46,21 @@
 .ce-chat-title-container {
   color: white !important;
   display: flex !important;
-  height: 0px;
   margin-left: 20px !important;
-  z-index: 100 !important;
   border-color: var(--border-color);
   border-style: solid !important;
   border-bottom-width: var(--header-border) !important;
-  border-width: 0 0 0 0 !important;
 }
-.ce-chat-title-container .ce-avatar {
-  position: relative !important;
-  margin-left: 10px !important;
-}
-.ce-chat-title-container .ce-avatar-status {
-  display: none !important;
-}
-.ce-chat-header-container {
-  margin-left: 20px !important;
-}
+// .ce-chat-title-container .ce-avatar {
+//   position: relative !important;
+//   margin-left: 10px !important;
+// }
+// .ce-chat-title-container .ce-avatar-status {
+//   display: none !important;
+// }
+// .ce-chat-header-container {
+//   margin-left: 20px !important;
+// }
 .mobile-toggler {
   display: none !important;
 }
@@ -99,11 +99,11 @@
   }
 }
 
-.ce-chat-title img {
-  height: 42px !important;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  margin-left: 10px !important;
-}
+// .ce-chat-title img {
+//   height: 42px !important;
+//   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+//   margin-left: 10px !important;
+// }
 
 .ce-message-bubble {
   background-color: var(--own-msg-color) !important;
@@ -294,5 +294,7 @@ div.ce-avatar-dot:nth-child(1) {
   margin-top: 20px;
 }
 .avt{
-  margin-left:70px;
+  margin-left:10em;
+  margin-top:0.7em;
+
 }
