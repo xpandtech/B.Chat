@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { DotsVerticalRounded } from "@styled-icons/boxicons-regular/DotsVerticalRounded";
-import { Robot } from"@styled-icons/fa-solid/Robot"
+import { Chatbot } from "@styled-icons/simple-icons/Chatbot";
+import { PinAngle } from "@styled-icons/bootstrap/PinAngle";
 const SelectInput = () => {
   const [value, setValue] = useState("");
 
@@ -19,8 +20,11 @@ const SelectInput = () => {
           <option value="tom">Tom</option>
         </select>
       </div>
-      <Robot className="robot"/>
-        <DotsVerticalRounded className="dotsVerticalRounded"/>
+      <header>
+        <PinAngle className="header-pin" />
+        <Chatbot className="header-chatbot" />
+        <DotsVerticalRounded className="header-dot" />
+      </header>
     </>
   );
 };
