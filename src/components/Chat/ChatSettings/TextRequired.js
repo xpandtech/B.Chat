@@ -13,44 +13,36 @@ function InputTextWithClearButton() {
   return (
     <div className="customer-info">
       <form>
-        <ul>
-          <li>
-            <div className="fieldset">
-              <input
-                type="search"
-                name="state1"
-                className="form-text"
-                placeholder="Customer Name"
-                value={state1}
-                onChange={(e) => setState1(e.target.value)}
-              />
-            </div>
-          </li>
-          <li>
-            <div className="fieldset">
-              <input
-                type="search"
-                name="state2"
-                className="form-text"
-                placeholder="Company"
-                value={state2}
-                onChange={(e) => setState2(e.target.value)}
-              />
-            </div>
-          </li>
-          <li>
-            <div className="fieldset">
-              <input
-                type="search"
-                name="state3"
-                className="form-text"
-                placeholder="Email"
-                value={state3}
-                onChange={(e) => setState3(e.target.value)}
-              />
-            </div>
-          </li>
-        </ul>
+        <div className="fieldset">
+          <input
+            type="search"
+            name="state1"
+            className="form-text"
+            placeholder="Customer Name"
+            value={state1}
+            onChange={(e) => setState1(e.target.value)}
+          />
+        </div>
+        <div className="fieldset">
+          <input
+            type="search"
+            name="state2"
+            className="form-text"
+            placeholder="Company"
+            value={state2}
+            onChange={(e) => setState2(e.target.value)}
+          />
+        </div>
+        <div className="fieldset">
+          <input
+            type="search"
+            name="state3"
+            className="form-text"
+            placeholder="Email"
+            value={state3}
+            onChange={(e) => setState3(e.target.value)}
+          />
+        </div>
       </form>
     </div>
   );
