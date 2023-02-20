@@ -236,6 +236,10 @@ img {
   }
 }
 
+//! ---------------------------------------- SCREENS STARTS HERE -------------------------------------------------
+
+
+
 // ----------------------------------------SCREEN ( 1600 )-------------------------------------------------
 
 
@@ -327,6 +331,8 @@ img {
 }
 
 
+
+
 // ----------------------------------------SCREEN ( 1400 )-------------------------------------------------
 
 @media only screen and (max-width: 1400px) {
@@ -377,6 +383,7 @@ img {
 
 }
 
+
 // ----------------------------------------SCREEN ( 1150 )-------------------------------------------------
 
 @media only screen and (max-width: 1150px) {
@@ -394,7 +401,6 @@ img {
   .ce-settings-column{
     border-color:var(--border-color) !important;
     border-style:solid !important;
-    // border-left-width: 0 0 1px 0 !important;
     position:absolute;
     width: 100%;
     border-left: none;}
@@ -584,6 +590,8 @@ img {
   }
 
 }
+
+
 
 // ----------------------------------------SCREEN ( 600 )-------------------------------------------------
 
@@ -823,94 +831,47 @@ img {
     margin-top: 1.3em!important;
   }
   
+  .react-tagsinput {
+    // border: 0px solid #ccc;
+    overflow: hidden;
+    padding-left: 5px;
+    padding-top: 5px;
+  }
 
-}
-
-// ----------------------------------------------------------------------------------------------------
-
-
-
-
-body {
-  background-color: #f7f7f7;
-  font-family: Helvetica, Arial, Verdana;
-  font-size: 16px;
-}
-h1 {
-  font-size: 1.7em;
-  text-align: center;
-}
-h2 {
-  font-size: 1.2em;
-}
-h1,
-h2 {
-  line-height: 1.7em;
-  margin: 0;
-}
-ul {
-  list-style: none;
-  list-style-position: outside;
-}
-ul li {
-  line-height: 20px;
-  margin: 10px 0;
-  text-align: left;
-}
-input[type="text"],
-input[type="search"] {
-  font-size: 16px;
-  padding: 10px;
-  width: 100%;
-  outline: 0;
-  border: 1px solid #999;
-  border-radius: 10px;
-}
-input[type="text"]:focus,
-input[type="search"]:focus {
-  border: 1px solid #777;
-}
-input[type="search"] {
-  -moz-appearance: textfield;
-  -webkit-appearance: textfield;
-}
-form .clear-text {
-  position: absolute;
-  color: #555;
-  font-size: 28px;
-  top: 4px;
-  right: -10px;
-}
-.main {
-  position: relative;
-  margin-right: -60px;
-  padding: 10px;
-  width: 90%;
 }
 
 
 
-//imput multple clr cross option.
+
+//!  ================================== END OF SCREENS =========================================
+
+
+
+// Customer Info -----------------------------------------------------------------------
+
+
+
+
+
+// Tag -----------------------------------------------------------------------
 
 .react-tagsinput {
   background-color: #404757!important;
+  border: none !important;
+  overflow: hidden;
   padding-left: 5px;
   padding-top: 5px;
-  margin-right: 5px;
-  margin-left: 22px;
-  width:75%;
-  
-  }
+}
 
 .react-tagsinput--focused {
-  border-color: #6864d8;
+  border-color: #a5d24a;
 }
 
 .react-tagsinput-tag {
-  background-color: #6864d8;
+  background-color: #cde69c;
   border-radius: 2px;
-  border: 1px solid #6864d8;
-  color:white;
+  border: 1px solid #a5d24a;
+  color: #638421;
   display: inline-block;
   font-family: sans-serif;
   font-size: 13px;
@@ -918,10 +879,7 @@ form .clear-text {
   margin-bottom: 5px;
   margin-right: 5px;
   padding: 5px;
-  
 }
-
-// Input cross 
 
 .react-tagsinput-remove {
   cursor: pointer;
@@ -929,22 +887,22 @@ form .clear-text {
 }
 
 .react-tagsinput-tag a::before {
-  content: " x";
+  content: " ×";
 }
 
 .react-tagsinput-input {
   background: transparent;
   border: 0;
-  color: rgb(244, 232, 232) !important;
+  color: #777;
   font-family: sans-serif;
   font-size: 13px;
-  font-weight: 200;
+  font-weight: 400;
   margin-bottom: 6px;
-  margin-top: 0px;
+  margin-top: 1px;
   outline: none;
   padding: 5px;
+  width: 80px;
 }
-
 
 // Select Operator -----------------------------------------------------------------------
 
@@ -963,308 +921,32 @@ form .clear-text {
   margin-bottom: 3%;
   background-color: #9a97fc;
 }
-// header=======================================================================
-header{
-  display: flex;
-  flex-direction: row;
-  margin-top: 18px;
-   margin-left: 145px;
+// Toolbar - Pin -------------------------------------------------------------------------------
+
+.toolbar-pin {
+  padding-right: 20px;
+  color: white;
   height: 45%;
-color: white;
+  margin-top: 18px;
+  display: flex;
 }
-.header-pin {
+
+// Toolbar - Chatbot -------------------------------------------------------------------------------
+
+.toolbar-chatbot{
   padding-right: 20px;
+  color: white;
+  height: 45%;
+  margin-top: 18px;
+  display: flex;
 }
-.header-chatbot{
+
+// Toolbar - 3Dots -------------------------------------------------------------------------------
+
+ .toolbar-3dots{
   padding-right: 20px;
-}
- .header-dot{
-  padding-right: 20px;
-}
-
-    
-// ----------------------------------------SCREEN ( 1600 )-------------------------------------------------
-
-
-@media only screen and (max-width: 1600px) {
-  header{
-    display: flex;
-    flex-direction: row;
-    margin-top: 18px;
-     margin-left: 165px;
-    height: 45%;
   color: white;
-  }
-  .header-pin {
-    padding-right: 20px;
-  }
-  .header-chatbot{
-    padding-right: 20px;
-  }
-   .header-dot{
-    padding-right: 20px;
-  }
-   
-}
- // ----------------------------------------SCREEN ( 1550 )-------------------------------------------------
-
-
- @media only screen and (max-width: 1550px) {
-  header{
-    display: flex;
-    flex-direction: row;
-    margin-top: 22px;
-     margin-left: 155px;
-    height: 37%;
-  color: white;
-  }
-  .header-pin {
-    padding-right: 20px;
-  }
-  .header-chatbot{
-    padding-right: 17px;
-  }
-   .header-dot{
-    padding-right: 20px;
-  }
-  
-   
- }
-// // ----------------------------------------SCREEN ( 1500 )-------------------------------------------------
-
-
-
-  @media only screen and (max-width: 1500px) {
-    header{
-      display: flex;
-      flex-direction: row;
-      margin-top: 20px;
-       margin-left: 127px;
-      height: 42%;
-    color: white;
-    }
-    .header-pin {
-      padding-right: 20px;
-    }
-    .header-chatbot{
-      padding-right: 20px;
-    }
-     .header-dot{
-      padding-right: 20px;
-    }
-   
-}
-// ----------------------------------------SCREEN ( 1400 )-------------------------------------------------
-
- @media only screen and (max-width: 1400px) {
-  header{
-    display: flex;
-    flex-direction: row;
-    margin-top: 22px;
-     margin-left: 112px;
-    height: 40%;
-  color: white;
-  }
-  .header-pin {
-    padding-right: 20px;
-  }
-  .header-chatbot{
-    padding-right: 20px;
-  }
-   .header-dot{
-    padding-right: 20px;
-  }
-}
-// // ----------------------------------------SCREEN ( 1300 )-------------------------------------------------
-
- @media only screen and (max-width: 1300px) {
-  header{
-    display: flex;
-    flex-direction: row;
-    margin-top: 22px;
-     margin-left: 83px;
-    height: 38%;
-  color: white;
-  }
-  .header-pin {
-    padding-right: 20px;
-  }
-  .header-chatbot{
-    padding-right: 20px;
-  }
-   .header-dot{
-    padding-right: 20px;
-  }
-}
- // ----------------------------------------SCREEN ( 1200 )-------------------------------------------------
-
- @media only screen and (max-width: 1200px) {
-  header{
-    display: flex;
-    flex-direction: row;
-    margin-top: 24px;
-     margin-left: 59px;
-    height: 36%;
-  color: white;
-  }
-  .header-pin {
-    padding-right: 20px;
-  }
-  .header-chatbot{
-    padding-right: 20px;
-  }
-   .header-dot{
-    padding-right: 20px;
-  }
- }
-
- // ----------------------------------------SCREEN ( 1100 )-------------------------------------------------
-
- @media only screen and (max-width: 1100px) {
-  header{
-    display: flex;
-    flex-direction: row;
-    margin-top: 24px;
-     margin-left: 185px;
-    height: 40%;
-  color: white;
-  }
-  .header-pin {
-    padding-right: 20px;
-  }
-  .header-chatbot{
-    padding-right: 20px;
-  }
-   .header-dot{
-    padding-right: 20px;
-  }
- }
-
-
-// ----------------------------------------SCREEN ( 1000 )-------------------------------------------------
-
-@media only screen and (max-width: 1000px) {
-  header{
-    display: flex;
-    flex-direction: row;
-    margin-top: 24px;
-     margin-left: 120px;
-    height: 38%;
-  color: white;
-  }
-  .header-pin {
-    padding-right: 20px;
-  }
-  .header-chatbot{
-    padding-right: 20px;
-  }
-   .header-dot{
-    padding-right: 20px;
-  }
-}
-// ----------------------------------------SCREEN ( 900 )-------------------------------------------------
-
-@media only screen and (max-width: 900px) {
-  header{
-    display: flex;
-    flex-direction: row;
-    margin-top: 22px;
-     margin-left: 57px;
-    height: 37%;
-  color: white;
-  }
-  .header-pin {
-    padding-right: 20px;
-  }
-  .header-chatbot{
-    padding-right: 20px;
-  }
-   .header-dot{
-    padding-right: 20px;
-  }
-}
-// ----------------------------------------SCREEN ( 800 )-------------------------------------------------
-
-@media only screen and (max-width: 800px) {
- header{
-    display: flex;
-    flex-direction: row;
-    margin-top: 25px;
-     margin-left: 20px;
-    height: 34%;
-  color: white;
-  }
-  .header-pin {
-    padding-right: 10px;
-  }
-  .header-chatbot{
-    padding-right: 7px;
-  }
-   .header-dot{
-    padding-right: 10px;
-  }
-}
-// ----------------------------------------SCREEN ( 700 )-------------------------------------------------
-
-@media only screen and (max-width: 700px) {
-  header{
-    display: flex;
-    flex-direction: row;
-    margin-top: 25px;
-     margin-left: 142px;
-    height: 35%;
-  color: white;
-  }
-  .header-pin {
-    padding-right: 20px;
-  }
-  .header-chatbot{
-    padding-right: 20px;
-  }
-   .header-dot{
-    padding-right: 20px;
-  }
-}
-// ----------------------------------------SCREEN ( 600 )-------------------------------------------------
-
-@media only screen and (max-width: 600px) {
-
-    header{
-      display: flex;
-      flex-direction: row;
-      margin-top: 25px;
-       margin-left: 84px;
-      height: 35%;
-    color: white;
-    }
-    .header-pin {
-      padding-right: 15px;
-    }
-    .header-chatbot{
-      padding-right: 15px;
-    }
-     .header-dot{
-      padding-right: 15px;
-    }
-}
-//----------------------------------------SCREEN ( 500 )-------------------------------------------------
-
-@media only screen and (max-width: 500px) {
-  header{
-    display: flex;
-    flex-direction: row;
-    margin-top: 25px;
-     margin-left: 24px;
-    height: 35%;
-  color: white;
-  }
-  .header-pin {
-    padding-right: 10px;
-  }
-  .header-chatbot{
-    padding-right: 10px;
-  }
-   .header-dot{
-    padding-right: 10px;
-  }
+  height: 45%;
+  margin-top: 18px;
+  display: flex;
 }

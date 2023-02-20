@@ -3,7 +3,7 @@ import { ChatEngineContext } from "react-chat-engine";
 import { Row, Col } from "react-grid-system";
 import { setConfiguration } from "react-grid-system";
 import Avatar from "@mui/material/Avatar";
-import SelectInput from "./HeaderComp/SelectInput";
+import ToolBar from "./HeaderComp/ToolBar";
 
 setConfiguration({ maxScreenClass: "xl", gutterWidth: 0 });
 
@@ -55,25 +55,27 @@ export const ChatHeader = (props) => {
     <Row className="ce-chat-title" style={styles.titleSection}>
       <div className="mobile-toggler">
       </div>
+
       <Avatar
         className="operator-avatar"
-        src="https://mui.com/static/images/avatar/2.jpg"
-      />
-      <SelectInput className="icon-setA" />
+        src="https://mui.com/static/images/avatar/2.jpg" />
+
+      <ToolBar/>
 
       <div className="ce-chat-header-container">
+
         <div
           style={styles.titleText}
           className="ce-chat-title-text"
-          id={`ce-chat-feed-title-${title}`}
-        >
+          id={`ce-chat-feed-title-${title}`} >
           {title}
         </div>
 
         <div
           style={styles.subtitleText}
-          className="ce-chat-subtitle-text"
-        ></div>
+          className="ce-chat-subtitle-text">
+          </div>
+          
       </div>
     </Row>
   );
