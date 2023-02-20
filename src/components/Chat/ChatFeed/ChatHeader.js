@@ -2,7 +2,6 @@ import React, { useContext } from "react";
 import { ChatEngineContext } from "react-chat-engine";
 import { Row, Col } from "react-grid-system";
 import { setConfiguration } from "react-grid-system";
-import Avatar from "@mui/material/Avatar";
 import ToolBar from "./HeaderComp/ToolBar";
 
 setConfiguration({ maxScreenClass: "xl", gutterWidth: 0 });
@@ -55,10 +54,6 @@ export const ChatHeader = (props) => {
     <Row className="ce-chat-title" style={styles.titleSection}>
       <div className="mobile-toggler">
       </div>
-
-      <Avatar
-        className="operator-avatar"
-        src="https://mui.com/static/images/avatar/2.jpg" />
 
       <ToolBar/>
 

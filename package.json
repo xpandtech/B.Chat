@@ -29,6 +29,7 @@
     "react": "^16.0.0",
     "react-avatar-editor": "^11.1.0",
     "react-chat-engine": "^1.8.13",
+    "react-countdown-circle-timer": "^3.1.0",
     "react-dom": "^17.0.1",
     "react-icons": "^4.7.1",
     "react-jss": "^10.10.0",

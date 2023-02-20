@@ -302,11 +302,11 @@ img {
   .settings-column {
     height: 280px;
   }
-  .operator-avatar{
-    margin-left:11em;
-    margin-top:0.7em;
+  // .operator-avatar{
+  //   margin-left:3em;
+  //   margin-top:0.7em;
   
-  }
+  // }
   .select-operator {
     margin-top: 1.3em!important;
   }
@@ -355,10 +355,10 @@ img {
     .settings-column{
      height: 200px;
 }
-.operator-avatar{
-  margin-left:29%!important;
-  margin-top:0.7em!important;
-}
+// .operator-avatar{
+//   margin-left:29%!important;
+//   margin-top:0.7em!important;
+// }
 .msg-user-name {
   margin-left: 103px;
   margin-top: 0px !important;
@@ -477,11 +477,11 @@ img {
     display: none !important;
     width: 0 !important;
   }
-  .operator-avatar{
-    margin-left:23%!important;
-    margin-top:0.7em!important;
+  // .operator-avatar{
+  //   margin-left:23%!important;
+  //   margin-top:0.7em!important;
   
-  }
+  // }
   .select-operator {
     margin-top: 1.3em!important;
   }
@@ -605,11 +605,11 @@ img {
 
     font-size: 20px !important;
   }
-    .operator-avatar{
-    margin-left:23%!important;
-    margin-top:0.7em!important;
+  //   .operator-avatar{
+  //   margin-left:23%!important;
+  //   margin-top:0.7em!important;
   
-  }
+  // }
   .select-operator {
     margin-top: 1.3em!important;
   }
@@ -751,11 +751,11 @@ img {
     border-width: 0 !important;
     padding-top: 5px !important;
   }
-  .operator-avatar{
-    margin-left:23%;
-    margin-top:0.7em;
+  // .operator-avatar{
+  //   margin-left:23%;
+  //   margin-top:0.7em;
   
-  }
+  // }
   .select-operator {
     margin-top: 1.3em!important;
   }
@@ -846,11 +846,11 @@ img {
     text-align: right !important;
   }
   
-  .operator-avatar{
-    margin-left:20%;
-    margin-top:0.7em;
+  // .operator-avatar{
+  //   margin-left:20%;
+  //   margin-top:0.7em;
   
-  }
+  // }
   .select-operator {
     margin-top: 1.3em!important;
   }
@@ -939,7 +939,7 @@ img {
   padding: 10px;
   border: 1px solid #d9d9d9;
   border-radius: 30px;
-  margin-left: 2%;
+  margin-left: 4%;
   margin-right: 2%;
   margin-top: 3%;
   margin-bottom: 3%;
@@ -976,83 +976,34 @@ img {
 }
 
 
+
 // Countdown timer -------------------------------------------------------------------
 
-.circleProgress_wrapper {
-  position: absolute;
-  top: 1rem;
-  left: 6.5rem;
-  width: 3rem;
-  height: 3rem;
-  margin: 0.5rem auto;
+.CountdownTimer {
+  display: flex;
+  justify-content: space-around;
+  font-family: sans-serif;
   text-align: center;
-  line-height: 3rem;
-}
-.right {
-  right: 0;
-}
-.wrapper {
-  position: absolute;
-  width: 1.5rem;
-  height: 3rem;
-  top: 0;
-  overflow: hidden;
-}
-.circleProgress {
-  width: 2.2rem;
-  height: 2.2rem;
-  border: 0.4rem solid #f1f1f1;
-  border-radius: 50%;
-  box-sizing: content-box;
-  position: absolute;
-  top: 0;
-}
-.rightcircle {
-  border-top: 0.4rem solid #8731fd;
-  border-right: 0.4rem solid #8731fd;
-  right: 0;
-}
-.leftcircle {
-  border-bottom: 0.4rem solid #8731fd;
-  border-left: 0.4rem solid #8731fd;
-  left: 0;
-  -webkit-transform: rotate(90deg);
-  transform: rotate(90deg);
-}
-.right_cartoon {
-  -webkit-animation: circleProgressLoad_right 10s linear infinite forwards;
-  animation: circleProgressLoad_right 10s linear infinite forwards;
-}
-.left_cartoon {
-  -webkit-animation: circleProgressLoad_left 10s linear infinite forwards;
-  animation: circleProgressLoad_left 10s linear infinite forwards;
+  padding-top: 10px;
+  margin-left: 5%;
 }
 
-@keyframes circleProgressLoad_right {
-  0% {
-    -webkit-transform: rotate(46deg);
-    transform: rotate(46deg);
-  }
-
-  50%,
-  to {
-    -webkit-transform: rotate(-136deg);
-    transform: rotate(-136deg);
-  }
+.time {
+  font-size: 15px;
+  margin-bottom: -8px;
 }
 
-@keyframes circleProgressLoad_left {
-  0%,
-  50% {
-    -webkit-transform: rotate(46deg);
-    transform: rotate(46deg);
+.hours{
+  font-size: 10px;
   }
 
-  to {
-    -webkit-transform: rotate(-136deg);
-    transform: rotate(-136deg);
+// Operator avatar -------------------------------------------------------------------
+
+  .operator-avatar{
+    margin-left:3.5em;
+    margin-top:0.7em;
   }
-}
+
 // CustomerInput --------------------------------------------------------------------------------
 
 .customer-info {

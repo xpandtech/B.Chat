@@ -2,6 +2,10 @@ import React, { useState } from "react";
 import { DotsVerticalRounded } from "@styled-icons/boxicons-regular/DotsVerticalRounded";
 import { Chatbot } from "@styled-icons/simple-icons/Chatbot";
 import { PinAngle } from "@styled-icons/bootstrap/PinAngle";
+import CountdownTimer from "./CountdownTimer";
+import Avatar from "@mui/material/Avatar";
+
+
 
 
 const ToolBar = () => {
@@ -14,6 +18,16 @@ const ToolBar = () => {
 
   return (
     <>
+
+    {/* Toolbar - Countdown Timer ---------------------------------------------- */}
+
+      <CountdownTimer/>
+
+    {/* Toolbar - Select Operator Profile Picture ---------------------------------------------- */}
+
+      <Avatar
+        className="operator-avatar"
+        src="https://mui.com/static/images/avatar/2.jpg" />
 
     {/* Toolbar - Select Operator ---------------------------------------------- */}
 

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const ChatSelect = () => {
+const SubmitButton = () => {
   const [value, setValue] = useState('');
 
   const handleChange = (event) => {
@@ -20,5 +20,5 @@ const ChatSelect = () => {
   );
 };
 
-export default ChatSelect;
+export default SubmitButton;
 

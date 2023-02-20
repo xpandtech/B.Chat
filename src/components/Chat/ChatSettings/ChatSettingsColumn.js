@@ -1,7 +1,6 @@
-import ChatSelect from "./ChatSelect";
+import SubmitButton from "./SubmitButton";
 import Tag from "./Tag";
 import React, { useEffec, useState } from "react";
-// import InputTextWithClearButton from "./TextRequired";
 import Avatar from "@mui/material/Avatar";
 import InputTextWithClearButton from "./CustomerInput"
 
@@ -22,16 +21,14 @@ const ChatSettingsColumn = () => {
           John Doe
         </p>
         <p className="msg-user-number">+919876543210</p>
-        <ChatSelect />
+        <SubmitButton />
         <p className="para"> Customer Info
         </p>
         <InputTextWithClearButton />
         <p className="para">Tag</p>
 
+        <Tag/>
 
-
-        {/* <Tag className="tagsec" /> */}
-<Tag/>
       </div>
     </>
   );
