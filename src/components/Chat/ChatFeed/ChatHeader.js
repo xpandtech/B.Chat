@@ -3,7 +3,7 @@ import { ChatEngineContext } from "react-chat-engine";
 import { Row, Col } from "react-grid-system";
 import { setConfiguration } from "react-grid-system";
 import Avatar from "@mui/material/Avatar";
-import SelectOperator from "./HeaderComp/SelectOperator";
+import ToolBar from "./HeaderComp/ToolBar";
 
 setConfiguration({ maxScreenClass: "xl", gutterWidth: 0 });
 
@@ -60,7 +60,7 @@ export const ChatHeader = (props) => {
         className="operator-avatar"
         src="https://mui.com/static/images/avatar/2.jpg" />
 
-      <SelectOperator/>
+      <ToolBar/>
 
       <div className="ce-chat-header-container">
 

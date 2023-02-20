@@ -9,6 +9,8 @@ const ChatSettingsColumn = () => {
     <>
       <div className="settings-column">
 
+     {/* Customer Profile picture ------------------------------------ */}
+
       <Avatar
         className="msg-user-avatar"
         alt="Remy Sharp"
@@ -16,18 +18,34 @@ const ChatSettingsColumn = () => {
         sx={{ width: 66, height: 66 }}
       />
 
+    {/*  Customer Name ----------------------------------------------- */}
 
         <p className="msg-user-name">
           John Doe
         </p>
+
+    {/* ! Customer Number -------------------------------------------- */}
+
         <p className="msg-user-number">+919876543210</p>
+
+     {/* Submit button ----------------------------------------------- */}
+
         <ChatSelect />
-        <p className="customer-info"> Customer Info
-        </p>
+
+     {/* Customer Info ----------------------------------------------- */}
+ 
+        <p className="customer-info"> Customer Info </p>
+
         <InputTextWithClearButton />
+
+     {/* Tag --------------------------------------------------------- */}
+
         <p className="para">Tag</p>
 
         <Tag className="" />
+
+
+
       </div>
     </>
   );

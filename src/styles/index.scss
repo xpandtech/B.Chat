@@ -857,20 +857,20 @@ img {
 
 .react-tagsinput {
   background-color: #404757!important;
-  // border: 0px solid #ccc;
+  border: none !important;
   overflow: hidden;
   padding-left: 5px;
   padding-top: 5px;
 }
 
 .react-tagsinput--focused {
-  // border-color: #a5d24a;
+  border-color: #a5d24a;
 }
 
 .react-tagsinput-tag {
-  background-color: #242b18!important;
+  background-color: #cde69c;
   border-radius: 2px;
-  // border: 1px solid #a5d24a;
+  border: 1px solid #a5d24a;
   color: #638421;
   display: inline-block;
   font-family: sans-serif;
@@ -921,328 +921,32 @@ img {
   margin-bottom: 3%;
   background-color: #9a97fc;
 }
-// header -------------------------------------------------------------------------------
+// Toolbar - Pin -------------------------------------------------------------------------------
 
-header{
-  display: flex;
-  flex-direction: row;
-  margin-top: 18px;
-   margin-left: 145px;
+.toolbar-pin {
+  padding-right: 20px;
+  color: white;
   height: 45%;
-color: white;
+  margin-top: 18px;
+  display: flex;
 }
-.header-pin {
+
+// Toolbar - Chatbot -------------------------------------------------------------------------------
+
+.toolbar-chatbot{
   padding-right: 20px;
+  color: white;
+  height: 45%;
+  margin-top: 18px;
+  display: flex;
 }
-.header-chatbot{
+
+// Toolbar - 3Dots -------------------------------------------------------------------------------
+
+ .toolbar-3dots{
   padding-right: 20px;
-}
- .header-dot{
-  padding-right: 20px;
-}
-
-    
-// ----------------------------------------SCREEN ( 1600 )-------------------------------------------------
-
-
-@media only screen and (max-width: 1600px) {
-  header{
-    display: flex;
-    flex-direction: row;
-    margin-top: 18px;
-     margin-left: 165px;
-    height: 45%;
   color: white;
-  }
-  .header-pin {
-    padding-right: 20px;
-  }
-  .header-chatbot{
-    padding-right: 20px;
-  }
-   .header-dot{
-    padding-right: 20px;
-  }
-   
-}
- // ----------------------------------------SCREEN ( 1550 )-------------------------------------------------
-
-
- @media only screen and (max-width: 1550px) {
-  header{
-    display: flex;
-    flex-direction: row;
-    margin-top: 22px;
-     margin-left: 155px;
-    height: 37%;
-  color: white;
-  }
-  .header-pin {
-    padding-right: 20px;
-  }
-  .header-chatbot{
-    padding-right: 17px;
-  }
-   .header-dot{
-    padding-right: 20px;
-  }
-  
-   
- }
-
-
-     header{
-      display: flex;
-      flex-direction: row;
-      margin-top: 20px;
-       margin-left: 127px;
-      height: 42%;
-    color: white;
-    }
-    .header-pin {
-      padding-right: 20px;
-    }
-    .header-chatbot{
-      padding-right: 20px;
-    }
-     .header-dot{
-      padding-right: 20px;
-    }
-// // ----------------------------------------SCREEN ( 1500 )-------------------------------------------------
-
-
-
-  @media only screen and (max-width: 1500px) {
-    header{
-      display: flex;
-      flex-direction: row;
-      margin-top: 20px;
-       margin-left: 127px;
-      height: 42%;
-    color: white;
-    }
-    .header-pin {
-      padding-right: 20px;
-    }
-    .header-chatbot{
-      padding-right: 20px;
-    }
-     .header-dot{
-      padding-right: 20px;
-    }
-   
-}
-// ----------------------------------------SCREEN ( 1400 )-------------------------------------------------
-
- @media only screen and (max-width: 1400px) {
-  header{
-    display: flex;
-    flex-direction: row;
-    margin-top: 22px;
-     margin-left: 112px;
-    height: 40%;
-  color: white;
-  }
-  .header-pin {
-    padding-right: 20px;
-  }
-  .header-chatbot{
-    padding-right: 20px;
-  }
-   .header-dot{
-    padding-right: 20px;
-  }
-}
-// // ----------------------------------------SCREEN ( 1300 )-------------------------------------------------
-
- @media only screen and (max-width: 1300px) {
-  header{
-    display: flex;
-    flex-direction: row;
-    margin-top: 22px;
-     margin-left: 83px;
-    height: 38%;
-  color: white;
-  }
-  .header-pin {
-    padding-right: 20px;
-  }
-  .header-chatbot{
-    padding-right: 20px;
-  }
-   .header-dot{
-    padding-right: 20px;
-  }
-}
- // ----------------------------------------SCREEN ( 1200 )-------------------------------------------------
-
- @media only screen and (max-width: 1200px) {
-  header{
-    display: flex;
-    flex-direction: row;
-    margin-top: 24px;
-     margin-left: 59px;
-    height: 36%;
-  color: white;
-  }
-  .header-pin {
-    padding-right: 20px;
-  }
-  .header-chatbot{
-    padding-right: 20px;
-  }
-   .header-dot{
-    padding-right: 20px;
-  }
- }
-
- // ----------------------------------------SCREEN ( 1100 )-------------------------------------------------
-
- @media only screen and (max-width: 1100px) {
-  header{
-    display: flex;
-    flex-direction: row;
-    margin-top: 24px;
-     margin-left: 185px;
-    height: 40%;
-  color: white;
-  }
-  .header-pin {
-    padding-right: 20px;
-  }
-  .header-chatbot{
-    padding-right: 20px;
-  }
-   .header-dot{
-    padding-right: 20px;
-  }
- }
-
-
-// ----------------------------------------SCREEN ( 1000 )-------------------------------------------------
-
-@media only screen and (max-width: 1000px) {
-  header{
-    display: flex;
-    flex-direction: row;
-    margin-top: 24px;
-     margin-left: 120px;
-    height: 38%;
-  color: white;
-  }
-  .header-pin {
-    padding-right: 20px;
-  }
-  .header-chatbot{
-    padding-right: 20px;
-  }
-   .header-dot{
-    padding-right: 20px;
-  }
-}
-// ----------------------------------------SCREEN ( 900 )-------------------------------------------------
-
-@media only screen and (max-width: 900px) {
-  header{
-    display: flex;
-    flex-direction: row;
-    margin-top: 22px;
-     margin-left: 57px;
-    height: 37%;
-  color: white;
-  }
-  .header-pin {
-    padding-right: 20px;
-  }
-  .header-chatbot{
-    padding-right: 20px;
-  }
-   .header-dot{
-    padding-right: 20px;
-  }
-}
-// ----------------------------------------SCREEN ( 800 )-------------------------------------------------
-
-@media only screen and (max-width: 800px) {
- header{
-    display: flex;
-    flex-direction: row;
-    margin-top: 25px;
-     margin-left: 20px;
-    height: 34%;
-  color: white;
-  }
-  .header-pin {
-    padding-right: 10px;
-  }
-  .header-chatbot{
-    padding-right: 7px;
-  }
-   .header-dot{
-    padding-right: 10px;
-  }
-}
-// ----------------------------------------SCREEN ( 700 )-------------------------------------------------
-
-@media only screen and (max-width: 700px) {
-  header{
-    display: flex;
-    flex-direction: row;
-    margin-top: 25px;
-     margin-left: 142px;
-    height: 35%;
-  color: white;
-  }
-  .header-pin {
-    padding-right: 20px;
-  }
-  .header-chatbot{
-    padding-right: 20px;
-  }
-   .header-dot{
-    padding-right: 20px;
-  }
-}
-// ----------------------------------------SCREEN ( 600 )-------------------------------------------------
-
-@media only screen and (max-width: 600px) {
-
-    header{
-      display: flex;
-      flex-direction: row;
-      margin-top: 25px;
-       margin-left: 84px;
-      height: 35%;
-    color: white;
-    }
-    .header-pin {
-      padding-right: 15px;
-    }
-    .header-chatbot{
-      padding-right: 15px;
-    }
-     .header-dot{
-      padding-right: 15px;
-    }
-}
-//----------------------------------------SCREEN ( 500 )-------------------------------------------------
-
-@media only screen and (max-width: 500px) {
-  header{
-    display: flex;
-    flex-direction: row;
-    margin-top: 25px;
-     margin-left: 24px;
-    height: 35%;
-  color: white;
-  }
-  .header-pin {
-    padding-right: 10px;
-  }
-  .header-chatbot{
-    padding-right: 10px;
-  }
-   .header-dot{
-    padding-right: 10px;
-  }
+  height: 45%;
+  margin-top: 18px;
+  display: flex;
 }
