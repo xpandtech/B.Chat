@@ -3,7 +3,7 @@ import Tag from "./Tag";
 import React, { useEffec, useState } from "react";
 // import InputTextWithClearButton from "./TextRequired";
 import Avatar from "@mui/material/Avatar";
-import InputTextWithClearButton from "./TextRequired"
+import InputTextWithClearButton from "./CustomerInput"
 
 const ChatSettingsColumn = () => {
   return (
@@ -25,9 +25,10 @@ const ChatSettingsColumn = () => {
         <ChatSelect />
         <p className="para"> Customer Info
         </p>
-        {/* <InputTextWithClearButton /> */}
+        <InputTextWithClearButton />
         <p className="para">Tag</p>
-        <InputTextWithClearButton className="para"/>
+
+
 
         {/* <Tag className="tagsec" /> */}
 <Tag/>

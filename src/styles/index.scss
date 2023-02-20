@@ -379,7 +379,26 @@ img {
   margin-bottom: 10px;
 }
 
+.form-text[type="search"] {
+  margin-left: 5%!important;
+}
 
+
+
+}
+
+// ----------------------------------------SCREEN ( 1300 )-------------------------------------------------
+
+@media only screen and (max-width: 1305px) {
+  :root {
+    --margin-top: 1em;
+    --margin-bottom:1em!important;
+
+    .form-text[type="search"] {
+      margin-left: 15%!important;
+    }
+  
+  }
 
 }
 
@@ -469,6 +488,12 @@ img {
   .submit-as {
     margin-left: 30%!important;
   }
+
+  .form-text[type="search"] {
+    margin-left: 10%!important;
+  }
+
+
 
 }
 
@@ -607,7 +632,6 @@ img {
   .ce-settings-column{
     border-color:var(--border-color) !important;
     border-style:solid !important;
-    // border-left-width: 0 0 1px 0 !important;
     position:absolute;
     width: 100%;
     border-left: none;}
@@ -618,7 +642,7 @@ img {
 
 
     .settings-column{
-    height: 200px;
+    height: 200px!important;
 }
   .auth-form {
     border-radius: 0 !important;
@@ -951,11 +975,9 @@ img {
   display: flex;
 }
 
-//three-input----------------------------------------------------------
-.three-input{
-  margin-right:30px!important;
-}
-//-------------------------------------------------------------------
+
+// Countdown timer -------------------------------------------------------------------
+
 .circleProgress_wrapper {
   position: absolute;
   top: 1rem;
@@ -1031,5 +1053,64 @@ img {
     transform: rotate(-136deg);
   }
 }
-//--------------------------------------------------------------------------------
+// CustomerInput --------------------------------------------------------------------------------
+
+.customer-info {
+  font-family: Helvetica, Arial, Verdana;
+  font-size: 16px;
+  margin-top: 10px;
+}
+h1 {
+  font-size: 1.7em;
+  text-align: center;
+}
+h2 {
+  font-size: 1.2em;
+}
+h1,
+h2 {
+  line-height: 1.7em;
+  margin: 0;
+}
+ul {
+  list-style: none;
+  list-style-position: outside;
+}
+ul li {
+  line-height: 20px;
+  margin: 10px 0;
+  text-align: left;
+}
+.form-text[type="text"],
+.form-text[type="search"] {
+  font-size: 16px;
+  padding: 10px;
+  width: 80%;
+  outline: 0;
+  border: 1px solid #999;
+  border-radius: 10px;
+  margin-left: 10%;
+}
+.form-text[type="text"]:focus,
+.form-text[type="search"]:focus {
+  border: 1px solid #777;
+}
+.form-text[type="search"] {
+  -moz-appearance: textfield;
+  -webkit-appearance: textfield;
+}
+form .clear-text {
+  position: absolute;
+  color: #555;
+  font-size: 28px;
+  top: 4px;
+  right: -10px;
+}
+.main {
+  position: relative;
+  margin-right: -60px;
+  padding: 10px;
+  width: 90%;
+}
+
 
