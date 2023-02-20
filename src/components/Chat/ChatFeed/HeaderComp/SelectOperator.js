@@ -2,7 +2,9 @@ import React, { useState } from "react";
 import { DotsVerticalRounded } from "@styled-icons/boxicons-regular/DotsVerticalRounded";
 import { Chatbot } from "@styled-icons/simple-icons/Chatbot";
 import { PinAngle } from "@styled-icons/bootstrap/PinAngle";
-const SelectInput = () => {
+
+
+const SelectOperator = () => {
   const [value, setValue] = useState("");
 
   const handleChange = (event) => {
@@ -29,4 +31,4 @@ const SelectInput = () => {
   );
 };
 
-export default SelectInput;
+export default SelectOperator;
