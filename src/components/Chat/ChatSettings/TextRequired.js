@@ -11,7 +11,7 @@ function InputTextWithClearButton() {
   };
 
   return (
-    <div className="main">
+    <div className="customer-info">
       <form>
         <ul>
           <li>
@@ -20,7 +20,7 @@ function InputTextWithClearButton() {
                 type="search"
                 name="state1"
                 className="form-text"
-                placeholder="Enter Your Name"
+                placeholder="Customer Name"
                 value={state1}
                 onChange={(e) => setState1(e.target.value)}
               />
@@ -32,7 +32,7 @@ function InputTextWithClearButton() {
                 type="search"
                 name="state2"
                 className="form-text"
-                placeholder="Enter Your Company"
+                placeholder="Company"
                 value={state2}
                 onChange={(e) => setState2(e.target.value)}
               />
@@ -44,7 +44,7 @@ function InputTextWithClearButton() {
                 type="search"
                 name="state3"
                 className="form-text"
-                placeholder="Enter Your Email"
+                placeholder="Email"
                 value={state3}
                 onChange={(e) => setState3(e.target.value)}
               />

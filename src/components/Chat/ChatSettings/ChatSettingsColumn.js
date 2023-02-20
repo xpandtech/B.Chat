@@ -1,5 +1,5 @@
 import ChatSelect from "./ChatSelect";
-import TagSection from "./Tag";
+import Tag from "./Tag";
 import React, { useEffec, useState } from "react";
 import InputTextWithClearButton from "./TextRequired";
 import Avatar from "@mui/material/Avatar";
@@ -27,7 +27,7 @@ const ChatSettingsColumn = () => {
         <InputTextWithClearButton />
         <p className="para">Tag</p>
 
-        <TagSection className="tagsec" />
+        <Tag className="" />
       </div>
     </>
   );
