@@ -19,17 +19,17 @@ const ToolBar = () => {
   return (
     <>
 
-    {/* Toolbar - Countdown Timer ---------------------------------------------- */}
+    {/* Toolbar - Countdown Timer ------------------------------------  */}
 
       <CountdownTimer/>
 
-    {/* Toolbar - Select Operator Profile Picture ---------------------------------------------- */}
+    {/* Toolbar - Select Operator Avatar ------------------------------ */}
 
       <Avatar
         className="operator-avatar"
         src="https://mui.com/static/images/avatar/2.jpg" />
 
-    {/* Toolbar - Select Operator ---------------------------------------------- */}
+    {/* Toolbar - Select Operator ------------------------------------- */}
 
      <div className="select-operator">
         <select value={value} onChange={handleChange}>
@@ -40,7 +40,7 @@ const ToolBar = () => {
         </select>
      </div>
 
-    {/* Toolbar - Pin ---------------------------------------------- */}
+    {/* Toolbar - Pin -------------------------------------------------- */}
 
        <PinAngle className="toolbar-pin" />
 
@@ -48,7 +48,7 @@ const ToolBar = () => {
 
         <Chatbot className="toolbar-chatbot" />
 
-    {/* Toolbar - 3Dots ---------------------------------------------- */}
+    {/* Toolbar - 3Dots ------------------------------------------------ */}
 
         <DotsVerticalRounded className="toolbar-3dots" />
 

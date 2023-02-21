@@ -36,7 +36,8 @@ export default function CountdownTimer() {
      
       <CountdownCircleTimer
         {...timerProps}
-        colors="#D14081"
+        className="CountdownCircleTimer"
+        colors="#00C642"
         duration={daySeconds}
         initialRemainingTime={remainingTime % daySeconds}
         onComplete={(totalElapsedTime) => ({
