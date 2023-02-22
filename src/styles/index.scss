@@ -1064,5 +1064,39 @@ form .clear-text {
   padding: 10px;
   width: 90%;
 }
+//Notebx--------------------------------------------------------------------------------
+.comment-input-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.comment-input-container input {
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  margin-right: 8px;
+}
+
+.comment-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.comment-buttons button {
+  border: none;
+  background-color: transparent;
+  color: #ccc;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.comment-buttons button:hover {
+  color: #333;
+}
 
 
