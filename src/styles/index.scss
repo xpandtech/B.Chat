@@ -18,9 +18,9 @@
   --bar-width: 60px;
   --chat-list-width: 290px;
   --chat-feed-width: 50%;
-  --right-rail-width: 22%!important;
+  --right-rail-width: 22% !important;
   --margin-top: 1em;
-  --margin-bottom:1em!important;
+  --margin-bottom: 1em !important;
 
   /* Color variables */
   --mobile-toggler: rgba(255, 255, 255, 0.685);
@@ -120,7 +120,6 @@
 }
 
 // ---------------------------------------App Container--------------------------------------------------
-
 
 input {
   filter: none !important;
@@ -238,10 +237,7 @@ img {
 
 //! ---------------------------------------- SCREENS STARTS HERE -------------------------------------------------
 
-
-
 // ----------------------------------------SCREEN ( 1600 )-------------------------------------------------
-
 
 @media only screen and (max-width: 1600px) {
   :root {
@@ -302,13 +298,11 @@ img {
   .settings-column {
     height: 280px;
   }
-  // .operator-avatar{
-  //   margin-left:3em;
-  //   margin-top:0.7em;
-  
-  // }
+  .operator-avatar {
+    margin-left: 8em !important;
+  }
   .select-operator {
-    margin-top: 1.3em!important;
+    margin-top: 1.3em !important;
   }
   .submit-as {
     display: flex;
@@ -319,73 +313,153 @@ img {
     padding: 10px;
     border: 1px solid #d9d9d9;
     border-radius: 4px;
-    margin-left: 35%!important;
+    margin-left: 35% !important;
     background-color: #9a97fc;
   }
-  .msg-user-avatar{
+  .msg-user-avatar {
     margin-left: 7em;
     margin-top: 20px;
     margin-bottom: 10px;
   }
-  
+  // Toolbar - Pin -------------------------------------------------------------------------------
+
+  .toolbar-pin {
+    padding-right:15px !important;
+    color: white;
+    height: 32px !important;
+    margin-top: 20px !important;
+    margin-left: 135px !important;
+    margin-bottom: 5px !important;
+  }
+
+  // Toolbar - Chatbot -------------------------------------------------------------------------------
+
+  .toolbar-chatbot {
+    padding-right: 12px !important;
+    color: white;
+    height: 32px !important;
+    margin-top: 22px !important;
+  }
+
+  // Toolbar - 3Dots -------------------------------------------------------------------------------
+
+  .toolbar-3dots {
+    padding-right: 15px !important;
+    color: white;
+    height: 32px !important;
+    margin-top: 20px !important;
+  }
 }
+// ----------------------------------------SCREEN ( 1500 )-------------------------------------------------
 
+@media only screen and (max-width: 1500px) {
+  // Toolbar - Pin -------------------------------------------------------------------------------
 
+  .toolbar-pin {
+    padding-right:15px !important;
+    color: white;
+    height: 27px !important;
+    margin-top: 22px !important;
+    margin-left: 105px !important;
+    
+  }
 
+  // Toolbar - Chatbot -------------------------------------------------------------------------------
 
+  .toolbar-chatbot {
+    padding-right: 12px !important;
+    color: white;
+    height: 25px !important;
+    margin-top: 24px !important;
+  }
+
+  // Toolbar - 3Dots -------------------------------------------------------------------------------
+
+  .toolbar-3dots {
+    padding-right: 15px !important;
+    color: white;
+    height: 27px !important;
+    margin-top: 22px !important;
+  }
+}
 // ----------------------------------------SCREEN ( 1400 )-------------------------------------------------
 
 @media only screen and (max-width: 1400px) {
   :root {
     --margin-top: 1em;
-    --margin-bottom:1em!important;
-  
+    --margin-bottom: 1em !important;
   }
-  .ce-settings-column{
-    border-color:var(--border-color) !important;
-    border-style:solid !important;
+  .ce-settings-column {
+    border-color: var(--border-color) !important;
+    border-style: solid !important;
     border-width: 0px 0px 0px 1px !important;
-    position:absolute;
+    position: absolute;
     width: 100%;
-    border-left: none;}
+    border-left: none;
+  }
 
-    .opt-bar{
-      margin-left: 90px!important;
-    }
-    .settings-column{
-     height: 200px;
-}
-// .operator-avatar{
-//   margin-left:29%!important;
-//   margin-top:0.7em!important;
-// }
-.msg-user-name {
-  margin-left: 103px;
-  margin-top: 0px !important;
-}
-.msg-user-number {
-  margin-left: 85px;
-  margin-top: -15px !important;
-}
-.select-operator {
-  margin-top: 1.3em!important;
-}
-.submit-as {
-  margin-left: 26%!important;
-}
-.msg-user-avatar{
-  margin-left: 5.2em;
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
+  .opt-bar {
+    margin-left: 90px !important;
+  }
+  .settings-column {
+    height: 200px;
+  }
+  // .operator-avatar{
+  //   margin-left:29%!important;
+  //   margin-top:0.7em!important;
+  // }
+  .msg-user-name {
+    margin-left: 103px;
+    margin-top: 0px !important;
+  }
+  .msg-user-number {
+    margin-left: 85px;
+    margin-top: -15px !important;
+  }
+  .select-operator {
+    margin-top: 1.3em !important;
+  }
+  .submit-as {
+    margin-left: 26% !important;
+  }
+  .msg-user-avatar {
+    margin-left: 5.2em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
 
 .form-text[type="search"] {
   margin-left: 5%!important;
   margin-bottom: 1%;
 }
 
+  // Toolbar - Pin -------------------------------------------------------------------------------
 
+  .toolbar-pin {
+    padding-right: 15px !important;
+    color: white;
+    margin-top: 20px !important;
+    height: 45% !important;
+    margin-left: 57px !important;
+  }
 
+  // Toolbar - Chatbot -------------------------------------------------------------------------------
+
+  .toolbar-chatbot {
+    padding-right: 13px !important;
+    color: white;
+    margin-top: 22px !important;
+    height: 43% !important
+  }
+
+  // Toolbar - 3Dots -------------------------------------------------------------------------------
+
+  .toolbar-3dots {
+    padding-right: 10px !important;
+    color: white;
+    margin-top: 20px !important;
+    height: 45% !important
+  }
 }
 
 // ----------------------------------------SCREEN ( 1300 )-------------------------------------------------
@@ -393,16 +467,79 @@ img {
 @media only screen and (max-width: 1305px) {
   :root {
     --margin-top: 1em;
-    --margin-bottom:1em!important;
+    --margin-bottom: 1em !important;
 
     .form-text[type="search"] {
-      margin-left: 15%!important;
+      margin-left: 15% !important;
     }
-  
   }
+ // Toolbar - Pin -------------------------------------------------------------------------------
 
+ .toolbar-pin {
+  padding-right:15px !important;
+  color: white;
+  height: 27px !important;
+  margin-top: 22px !important;
+  margin-left: 25px !important;
+  
 }
 
+// Toolbar - Chatbot -------------------------------------------------------------------------------
+
+.toolbar-chatbot {
+  padding-right: 12px !important;
+  color: white;
+  height: 25px !important;
+  margin-top: 24px !important;
+}
+
+// Toolbar - 3Dots -------------------------------------------------------------------------------
+
+.toolbar-3dots {
+  padding-right: 15px !important;
+  color: white;
+  height: 27px !important;
+  margin-top: 22px !important;
+}
+}
+
+// ----------------------------------------SCREEN ( 1200 )-------------------------------------------------
+
+@media only screen and (max-width: 1200px) {
+
+   .operator-avatar{
+    margin-left:9%!important;
+    margin-top:0.7em!important;
+  }
+  // Toolbar - Pin -------------------------------------------------------------------------------
+
+ .toolbar-pin {
+  padding-right:15px !important;
+  color: white;
+  height: 27px !important;
+  margin-top: 22px !important;
+  margin-left: 100px !important;
+  
+}
+
+// Toolbar - Chatbot -------------------------------------------------------------------------------
+
+.toolbar-chatbot {
+  padding-right: 12px !important;
+  color: white;
+  height: 25px !important;
+  margin-top: 24px !important;
+}
+
+// Toolbar - 3Dots -------------------------------------------------------------------------------
+
+.toolbar-3dots {
+  padding-right: 15px !important;
+  color: white;
+  height: 27px !important;
+  margin-top: 22px !important;
+}
+}
 
 // ----------------------------------------SCREEN ( 1150 )-------------------------------------------------
 
@@ -415,22 +552,19 @@ img {
     --chat-feed-width: 50%;
     --right-rail-width: 0px;
     --margin-top: 1em;
-    --margin-bottom:1em!important;
-  
+    --margin-bottom: 1em !important;
   }
-  .ce-settings-column{
-    border-color:var(--border-color) !important;
-    border-style:solid !important;
-    position:absolute;
+  .ce-settings-column {
+    border-color: var(--border-color) !important;
+    border-style: solid !important;
+    position: absolute;
     width: 100%;
-    border-left: none;}
+    border-left: none;
+  }
 
-   
-
-    .settings-column{
+  .settings-column {
     height: 200px;
-    }
-
+  }
 
   .chat-container > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) {
     max-width: none !important;
@@ -481,28 +615,117 @@ img {
   // .operator-avatar{
   //   margin-left:23%!important;
   //   margin-top:0.7em!important;
-  
+
   // }
   .select-operator {
-    margin-top: 1.3em!important;
+    margin-top: 1.3em !important;
   }
   .submit-as {
-    margin-left: 30%!important;
+    margin-left: 30% !important;
   }
 
   .form-text[type="search"] {
-    margin-left: 10%!important;
+    margin-left: 10% !important;
   }
+//    // Toolbar - Pin -------------------------------------------------------------------------------
 
+//  .toolbar-pin {
+//   padding-right:10px !important;
+//   color: white;
+//   height: 27px !important;
+//   margin-top: 2px !important;
+//   margin-left:1px !important;
+  
+// }
 
+// // Toolbar - Chatbot -------------------------------------------------------------------------------
 
+// .toolbar-chatbot {
+//   padding-right: 10px !important;
+//   color: white;
+//   height: 25px !important;
+//   margin-top: 24px !important;
+// }
+
+// // Toolbar - 3Dots -------------------------------------------------------------------------------
+
+// .toolbar-3dots {
+//   padding-right: 10px !important;
+//   color: white;
+//   height: 27px !important;
+//   margin-top: 2px !important;
+// }
+}
+// ----------------------------------------SCREEN ( 900 )-------------------------------------------------
+
+@media only screen and (max-width: 900px) {
+  // Toolbar - Pin -------------------------------------------------------------------------------
+
+  .toolbar-pin {
+    padding-right:15px !important;
+    color: white;
+    height: 22px !important;
+    margin-top: 22px !important;
+    margin-left: 60px !important;
+    
+  }
+  
+  // Toolbar - Chatbot -------------------------------------------------------------------------------
+  
+  .toolbar-chatbot {
+    padding-right: 10px !important;
+    color: white;
+    height: 20px !important;
+    margin-top: 24px !important;
+  }
+  
+  // Toolbar - 3Dots -------------------------------------------------------------------------------
+  
+  .toolbar-3dots {
+    padding-right: 10px !important;
+    color: white;
+    height: 22px !important;
+    margin-top: 22px !important;
+  }
 }
 
+// ----------------------------------------SCREEN ( 800 )-------------------------------------------------
+
+@media only screen and (max-width: 800px) {
+  // Toolbar - Pin -------------------------------------------------------------------------------
+
+  .toolbar-pin {
+    padding-right:10px !important;
+    color: white;
+    height: 27px !important;
+    margin-top: 22px !important;
+    margin-left: 1px !important;
+    
+  }
+  
+  // Toolbar - Chatbot -------------------------------------------------------------------------------
+  
+  .toolbar-chatbot {
+    padding-right: 7px !important;
+    color: white;
+    height: 25px !important;
+    margin-top: 24px !important;
+  }
+  
+  // Toolbar - 3Dots -------------------------------------------------------------------------------
+  
+  .toolbar-3dots {
+    padding-right: 1px !important;
+    color: white;
+    height: 27px !important;
+    margin-top: 22px !important;
+  }
+}
 // ----------------------------------------SCREEN ( 700 )-------------------------------------------------
 
-
 @media only screen and (max-width: 700px) {
-  html, body {
+  html,
+  body {
     overflow-x: hidden !important;
   }
   body {
@@ -530,33 +753,31 @@ img {
     border-style: solid !important;
     border-color: rgba(0, 0, 0, 0.05) !important;
   }
-  .ce-settings-column{
-    border-color:var(--border-color) !important;
-    border-style:solid !important;
+  .ce-settings-column {
+    border-color: var(--border-color) !important;
+    border-style: solid !important;
     // border-left-width: 0 0 1px 0 !important;
-    position:absolute;
+    position: absolute;
     width: 100%;
-    border-left: none;}
+    border-left: none;
+  }
 
-    .opt-bar{
-      margin-left: 90px!important;
+  .opt-bar {
+    margin-left: 90px !important;
+  }
 
-     }
-
-
-    .settings-column{
+  .settings-column {
     height: 200px;
-}
-  
-  .ce-chat-feed 
-    img {
-      border-width: 0 !important;
-    }
+  }
 
-    > div:nth-of-type(1) {
-      background-color: var(--feed-header-bg) !important;
-    }
-  
+  .ce-chat-feed img {
+    border-width: 0 !important;
+  }
+
+  > div:nth-of-type(1) {
+    background-color: var(--feed-header-bg) !important;
+  }
+
   .ce-chat-list > div:nth-child(1) {
     overflow: hidden !important;
   }
@@ -600,51 +821,59 @@ img {
   }
   .ce-chat-feed .mobile-toggler {
     padding-left: 20px !important;
-   
   }
-  .ce-chat-feed .mobile-toggler svg  {
-
+  .ce-chat-feed .mobile-toggler svg {
     font-size: 20px !important;
   }
   //   .operator-avatar{
   //   margin-left:23%!important;
   //   margin-top:0.7em!important;
-  
+
   // }
   .select-operator {
-    margin-top: 1.3em!important;
+    margin-top: 1.3em !important;
   }
-
+  .toolbar-pin {
+    padding-right:15px !important;
+    margin-left: 150px !important;
+   
+  }
+    // Toolbar - Chatbot -------------------------------------------------------------------------------
+  
+    .toolbar-chatbot {
+      padding-right:12px !important;
+    }
+// Toolbar - 3Dots -------------------------------------------------------------------------------
+  
+  .toolbar-3dots {
+    padding-right:15px !important;
+  }
 }
-
-
 
 // ----------------------------------------SCREEN ( 600 )-------------------------------------------------
 
-
 @media only screen and (max-width: 600px) {
   .user-avatar {
-    
     margin-left: 10px !important;
-}
+  }
   .chat-left-wing {
     width: 90% !important;
   }
-  .ce-settings-column{
-    border-color:var(--border-color) !important;
-    border-style:solid !important;
-    position:absolute;
+  .ce-settings-column {
+    border-color: var(--border-color) !important;
+    border-style: solid !important;
+    position: absolute;
     width: 100%;
-    border-left: none;}
+    border-left: none;
+  }
 
-    .opt-bar{
-      margin-left: 90px!important;
-    }
+  .opt-bar {
+    margin-left: 90px !important;
+  }
 
-
-    .settings-column{
-    height: 200px!important;
-}
+  .settings-column {
+    height: 200px !important;
+  }
   .auth-form {
     border-radius: 0 !important;
     width: 100% !important;
@@ -681,12 +910,24 @@ img {
     justify-content: center !important;
     flex-direction: column;
   }
-
+  .toolbar-pin {
+    padding-right:15px !important;
+    margin-left: 70px !important;
+   
+  }
+    // Toolbar - Chatbot -------------------------------------------------------------------------------
+  
+    .toolbar-chatbot {
+      padding-right:12px !important;
+    }
+// Toolbar - 3Dots -------------------------------------------------------------------------------
+  
+  .toolbar-3dots {
+    padding-right:15px !important;
+  }
 }
 
-
 // ----------------------------------------SCREEN ( 500 to 700 )-------------------------------------------------
-
 
 @media only screen and (min-width: 500px) and (max-width: 700px) {
   :root {
@@ -695,21 +936,18 @@ img {
   .chat-container > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) {
     display: none;
   }
-  .ce-settings-column{
-    border-color:var(--border-color) !important;
-    border-style:solid !important;
+  .ce-settings-column {
+    border-color: var(--border-color) !important;
+    border-style: solid !important;
     // border-left-width: 0 0 1px 0 !important;
-    position:absolute;
+    position: absolute;
     width: 100%;
     border-left: none;
 
-
-
-   
-    .settings-column{
-    height: 200px;
+    .settings-column {
+      height: 200px;
     }
-}
+  }
   .chat-left-wing {
     width: 80% !important;
     margin: auto !important;
@@ -755,16 +993,30 @@ img {
   // .operator-avatar{
   //   margin-left:23%;
   //   margin-top:0.7em;
-  
+
   // }
   .select-operator {
-    margin-top: 1.3em!important;
+    margin-top: 1.3em !important;
+
   }
+  .toolbar-pin {
+    padding-right:10px !important;
+    margin-left: 20px !important;
+   
+  }
+      // Toolbar - Chatbot -------------------------------------------------------------------------------
+  
+   .toolbar-chatbot {
+        padding-right:7px !important;
+      }
+  // Toolbar - 3Dots -------------------------------------------------------------------------------
+    
+  .toolbar-3dots {
+      padding-right:10px !important;
+    }
 }
 
-
 // ----------------------------------------SCREEN ( 500 )-------------------------------------------------
-
 
 @media only screen and (max-width: 500px) {
   .ce-my-message-bubble,
@@ -846,42 +1098,32 @@ img {
     width: 20% !important;
     text-align: right !important;
   }
-  
+
   // .operator-avatar{
   //   margin-left:20%;
   //   margin-top:0.7em;
-  
+
   // }
   .select-operator {
-    margin-top: 1.3em!important;
+    margin-top: 1.3em !important;
   }
-  
+
   .react-tagsinput {
     // border: 0px solid #ccc;
     overflow: hidden;
     padding-left: 5px;
     padding-top: 5px;
   }
-
 }
-
-
-
 
 //!  ================================== END OF SCREENS =========================================
 
-
-
 // Customer Info -----------------------------------------------------------------------
-
-
-
-
 
 // Tag -----------------------------------------------------------------------
 
 .react-tagsinput {
-  background-color: #404757!important;
+  background-color: #404757 !important;
   border: none !important;
   overflow: hidden;
   padding-left: 5px;
@@ -893,7 +1135,7 @@ img {
 }
 
 .react-tagsinput-tag {
-  background-color:#714ad2;
+  background-color: #714ad2;
   border-radius: 2px;
   border: 1px solid #714ad2;
   color: #f5f7f0;
@@ -928,7 +1170,12 @@ img {
   padding: 5px;
   width: 80px;
 }
+// Operator avatar -------------------------------------------------------------------
 
+.operator-avatar {
+  margin-left: 3.5em;
+  margin-top: 0.7em;
+}
 // Select Operator -----------------------------------------------------------------------
 
 .select-operator {
@@ -949,34 +1196,30 @@ img {
 // Toolbar - Pin -------------------------------------------------------------------------------
 
 .toolbar-pin {
-  padding-right: 20px;
-  color: white;
-  height: 42%;
-  margin-top: 20px;
-  display: flex;
+  padding-right: 5px;
+  margin-top: 10px;
+  color:white;
+  height: 10px;
 }
 
 // Toolbar - Chatbot -------------------------------------------------------------------------------
 
-.toolbar-chatbot{
-  padding-right: 20px;
+.toolbar-chatbot {
+  padding-right: 5px;
+  margin-top: 12px;
   color: white;
-  height: 40%;
-  margin-top: 22px;
-  display: flex;
+  height: 10px;
 }
 
 // Toolbar - 3Dots -------------------------------------------------------------------------------
 
- .toolbar-3dots{
-  padding-right: 20px;
+.toolbar-3dots {
+  padding-right: 5px;
+  margin-top: 10px;
   color: white;
-  height: 42%;
-  margin-top: 20px;
-  display: flex;
+  height: 10px;
+ 
 }
-
-
 
 // Countdown timer -------------------------------------------------------------------
 
@@ -994,16 +1237,9 @@ img {
   margin-bottom: -8px;
 }
 
-.hours{
+.hours {
   font-size: 10px;
-  }
-
-// Operator avatar -------------------------------------------------------------------
-
-  .operator-avatar{
-    margin-left:3.5em;
-    margin-top:0.7em;
-  }
+}
 
 // Customer Input --------------------------------------------------------------------------------
 
@@ -1064,5 +1300,3 @@ form .clear-text {
   padding: 10px;
   width: 90%;
 }
-
-
