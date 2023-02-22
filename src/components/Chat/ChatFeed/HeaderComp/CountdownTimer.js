@@ -37,8 +37,11 @@ export default function CountdownTimer() {
       <CountdownCircleTimer
         {...timerProps}
         className="CountdownCircleTimer"
-        colors="#00C642"
-        duration={daySeconds}
+        // colors="#00C642"
+        duration={7}
+        colors={['#00FF00', '#F7B801', '#FF0000', '#FF0000']}
+        colorsTime={[7, 5, 2, 0]}
+        durationday ={daySeconds}
         initialRemainingTime={remainingTime % daySeconds}
         onComplete={(totalElapsedTime) => ({
           shouldRepeat: remainingTime - totalElapsedTime > hourSeconds
