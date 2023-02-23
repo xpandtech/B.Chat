@@ -1,26 +1,29 @@
-import { useState } from 'react';
+import React from "react";
+import { CommentSection } from "react-comments-section";
+import "react-comments-section/dist/index.css";
 // import NoteBox from './NoteBox';
 
-function NoteBox() {
-  const [comment, setComment] = useState('');
-  
-  const handleCommentChange = (event) => {
-    setComment(event.target.value);
-  }
-  
+const NoteBox = () => {
+  const data = [
+    {
+      userId: "02b",
+      comId: "017",
+      replies: []
+    }
+  ];
   return (
-    <div className="comment-input-container">
-      <input
-        type="text"
-        placeholder="Write a comment"
-        value={comment}
-        onChange={handleCommentChange}
-      />
-      <div className="comment-buttons">
-        <button>Write</button>
-        <button>Delete</button>
-      </div>
-    </div>
+    <CommentSection
+      currentUser={{
+        currentUserImg:
+          "https://ui-avatars.com/api/name=Riya&background=random",
+      }}
+      logIn={{
+        loginLink: "http://localhost:3001/",
+        signupLink: "http://localhost:3001/"
+      }}
+      commentData={data}
+    />
   );
-}
+};
+
 export default NoteBox;
