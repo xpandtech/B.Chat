@@ -417,7 +417,10 @@ img {
 .form-text[type="search"] {
   margin-left: 5%!important;
   margin-bottom: 1%;
+<<<<<<< Updated upstream
   padding-left: 10px;
+=======
+>>>>>>> Stashed changes
 }
 
   // Toolbar - Pin -------------------------------------------------------------------------------
@@ -1149,6 +1152,7 @@ form .clear-text {
   padding: 10px;
   width: 90%;
 }
+<<<<<<< Updated upstream
 //!Notebox========================================================================
 .userInfo {
   display: flex;
@@ -1169,6 +1173,40 @@ form .clear-text {
 .halfDiv {
   display: flex;
   justify-content: space-between;
+=======
+//Note---------------------------------------------------------------------------------
+
+.input-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+input {
+  padding-right: 40px;
+  height: 40px;
+  width: 300px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+// .delete-icon {
+//   position: absolute;
+//   right: 10px;
+//   top: 50%;
+//   transform: translateY(-50%);
+//   font-size: 20px;
+//   color: #999;
+//   cursor: pointer;
+// }
+
+.date {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #999;
+>>>>>>> Stashed changes
 }
 
 .replyBtn {

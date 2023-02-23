@@ -3,7 +3,11 @@ import Tag from "./Tag";
 import React, { useEffec, useState } from "react";
 import Avatar from "@mui/material/Avatar";
 import InputTextWithClearButton from "./CustomerInput"
+<<<<<<< Updated upstream
 import NoteBox from  "./NoteBox"
+=======
+import NoteBox from "./NoteBox"
+>>>>>>> Stashed changes
 
 const ChatSettingsColumn = () => {
   return (
@@ -30,6 +34,10 @@ const ChatSettingsColumn = () => {
 
         <Tag/>
         <NoteBox/>
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
       </div>
     </>
   );
