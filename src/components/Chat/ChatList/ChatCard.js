@@ -38,7 +38,7 @@ export const ChatCard = (props) => {
     const convertedUsername = otherPerson ? otherPerson.person.username : "";
     const title = otherPerson
         ? capitalize(decodeURIComponent(convertedUsername))
-        : "";
+        :conn.userName;
 
     let lastMessage = chat.last_message.text;
     if (!lastMessage) {
@@ -46,7 +46,7 @@ export const ChatCard = (props) => {
             chat.last_message.attachments.length > 0
                 ? `${chat.last_message.attachments.length} image${chat.last_message.attachments.length > 1 ? "s" : ""
                 }`
-                : "Say hello!";
+                : title;
     }
     const isToday = (someDate) => {
         const today = new Date()
@@ -133,7 +133,7 @@ export const ChatCard = (props) => {
                         style={styles.messageText}
                         className="ce-chat-subtitle-text ce-chat-subtitle-message"
                     >
-              {(conn.userName === "asbir%20vkp") ? "Say Hello" : lastMessage   }                        
+              {(conn.userName === "asbir%20vkp") ? title : lastMessage   }                        
                         
                     </div>
 
