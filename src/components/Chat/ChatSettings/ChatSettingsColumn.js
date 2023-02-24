@@ -4,6 +4,7 @@ import React, { useEffec, useState } from "react";
 import Avatar from "@mui/material/Avatar";
 import InputTextWithClearButton from "./CustomerInput"
 import NoteBox from  "./NoteBox"
+import "./scroll.css"
 
 const ChatSettingsColumn = () => {
   return (
@@ -30,7 +31,9 @@ const ChatSettingsColumn = () => {
 
         <Tag/>
         <NoteBox/>
+        
       </div>
+  
     </>
   );
 };

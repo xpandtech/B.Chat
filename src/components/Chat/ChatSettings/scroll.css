@@ -1,0 +1,21 @@
+.settings-column{
+    height:100%;
+    overflow: auto;
+}
+
+/* settings-column::-webkit-scrollbar{
+    width: 2em;
+}
+settings-column::-webkit-scrollbar-track{
+    background:white ;
+    border-radius: 100vw;
+    margin-block: .5em;
+}
+settings-column::-webkit-scrollbar-thumb{
+    background:#726DFE ;
+    border: .25em white;
+    border-radius: 100vw;
+}
+settings-column::-webkit-scrollbar-thumb:hover{
+    background:#726DFE ;
+} */
