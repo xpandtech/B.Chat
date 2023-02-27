@@ -1053,6 +1053,16 @@ img {
     height: 32px!important;
   }
 }
+// ----------------------------------------SCREEN ( 400 to 500 )-------------------------------------------------
+
+@media only screen and (min-width: 400px) and (max-width: 500px) {
+  .operator-avatar {
+    margin-left: 0.5em !important;
+  }
+  .toolbar-3dots {
+    margin-right: 0.1rem!important ;
+  }
+}
 
 //!  ================================== END OF SCREENS =========================================
 
