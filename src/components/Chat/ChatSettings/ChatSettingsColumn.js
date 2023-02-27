@@ -1,10 +1,10 @@
 import SubmitButton from "./SubmitButton";
 import Tag from "./Tag";
-import React, { useEffec, useState } from "react";
+import React, { useEffect, useState } from "react";
 import Avatar from "@mui/material/Avatar";
 import InputTextWithClearButton from "./CustomerInput"
 import NoteBox from  "./NoteBox"
-import "./scroll.css"
+import "./scroll/scroll.css"
 
 const ChatSettingsColumn = () => {
   return (

@@ -240,11 +240,14 @@ img {
 // ----------------------------------------SCREEN ( 1600 to 1800)-------------------------------------------------
 
 @media only screen and (min-width: 1601px) and (max-width: 1800px) {
+  .operator-avatar {
+    margin-left: 9em!important;
+  }
   // Toolbar - Pin -------------------------------------------------------------------------------
 
   .toolbar-pin {
-    margin-left: 30% !important;
-    height: 30px !important;
+    margin-left: 20%!important;
+    height: 30px!important;
   }
 
   // Toolbar - Chatbot -------------------------------------------------------------------------------
@@ -1043,7 +1046,7 @@ img {
     padding-top: 5px;
   }
   .toolbar-pin {
-    margin-left: 1px !important;
+    margin-left: 3.7rem !important;
     height: 30px !important;
   }
   .toolbar-chatbot {
@@ -1056,8 +1059,18 @@ img {
 // ----------------------------------------SCREEN ( 400 to 500 )-------------------------------------------------
 
 @media only screen and (min-width: 400px) and (max-width: 500px) {
+  .CountdownTimer {
+    margin-left: 0.0em!important;
+  }
   .operator-avatar {
     margin-left: 0.5em !important;
+  }
+  .toolbar-pin {
+    margin-left: 0.1em!important;
+    height: 30px !important;
+  }
+  .toolbar-chatbot {
+    height: 28px!important;
   }
   .toolbar-3dots {
     margin-right: 0.1rem!important ;
