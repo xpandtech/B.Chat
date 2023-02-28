@@ -3,7 +3,7 @@ import Tag from "./Tag";
 import React, { useEffect, useState } from "react";
 import Avatar from "@mui/material/Avatar";
 import InputTextWithClearButton from "./CustomerInput"
-import NoteBox from  "./NoteBox"
+import Comments from "./Comments";
 import "./scroll/scroll.css"
 
 const ChatSettingsColumn = () => {
@@ -30,8 +30,8 @@ const ChatSettingsColumn = () => {
         <p className="para">Tag</p>
 
         <Tag/>
-        <NoteBox/>
-        
+        <Comments/>
+      
       </div>
   
     </>
