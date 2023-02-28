@@ -25,8 +25,8 @@ export default function Comments() {
               <MDBCard className="mb-5">
                 <MDBCardBody>
 
-                  <div className="d-flex justify-content-between">
-                    <div className="d-flex flex-row align-items-center">
+                  <div className="d-flex">
+                    <div className="flex-row">
                       <MDBCardImage
                         src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(4).webp"
                         alt="avatar"
