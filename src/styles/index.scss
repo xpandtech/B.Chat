@@ -360,6 +360,27 @@ img {
     height: 32px !important;
   }
 }
+// ----------------------------------------SCREEN ( 1500 to 1600)-------------------------------------------------
+
+@media only screen and (min-width: 1501px) and (max-width: 1599px) {
+    // Toolbar - Pin -------------------------------------------------------------------------------
+
+    .toolbar-pin {
+      margin-left: 6em !important;
+      height: 30px !important;
+    }
+  
+    // Toolbar - Chatbot -------------------------------------------------------------------------------
+  
+    .toolbar-chatbot {
+      margin-left: 12px !important;
+      height: 28px !important;
+    }
+    .toolbar-3dots {
+      height: 32px !important;
+    }
+}
+
 // ----------------------------------------SCREEN ( 1500 )-------------------------------------------------
 
 @media only screen and (max-width: 1500px) {
@@ -380,29 +401,31 @@ img {
     height: 32px !important;
   }
 }
-// ----------------------------------------SCREEN ( 1450 )-------------------------------------------------
+// ----------------------------------------SCREEN ( 1400 to 1500)-------------------------------------------------
 
-@media only screen and (max-width: 1450px) {
-  .operator-avatar {
-    margin-left: 5em !important;
+@media only screen and (min-width: 1401px) and (max-width: 1499px) {
+    .operator-avatar{
+    margin-left:20%!important;
+    margin-top:0.7em!important;
   }
-  // Toolbar - Pin -------------------------------------------------------------------------------
+    // Toolbar - Pin -------------------------------------------------------------------------------
 
-  .toolbar-pin {
-    margin-left: 6em !important;
-    height: 30px !important;
-  }
-
-  // Toolbar - Chatbot -------------------------------------------------------------------------------
-
-  .toolbar-chatbot {
-    margin-left: 12px !important;
-    height: 28px !important;
-  }
-  .toolbar-3dots {
-    height: 32px !important;
-  }
+    .toolbar-pin {
+      margin-left: 6em !important;
+      height: 30px !important;
+    }
+  
+    // Toolbar - Chatbot -------------------------------------------------------------------------------
+  
+    .toolbar-chatbot {
+      margin-left: 12px !important;
+      height: 28px !important;
+    }
+    .toolbar-3dots {
+      height: 32px !important;
+    }
 }
+
 // ----------------------------------------SCREEN ( 1400 )-------------------------------------------------
 
 @media only screen and (max-width: 1400px) {
@@ -425,10 +448,10 @@ img {
   .settings-column {
     height: 200px;
   }
-  // .operator-avatar{
-  //   margin-left:29%!important;
-  //   margin-top:0.7em!important;
-  // }
+  .operator-avatar{
+    margin-left:20%!important;
+    margin-top:0.7em!important;
+  }
   .msg-user-name {
     margin-left: 103px;
     margin-top: 0px !important;
@@ -454,23 +477,27 @@ img {
     margin-bottom: 1%;
   }
 
-  .toolbar-pin {
-    margin-left: 8.5em !important;
-    height: 30px !important;
-  }
-  // Toolbar - Chatbot -------------------------------------------------------------------------------
+  // Toolbar - Pin -------------------------------------------------------------------------------
 
-  .toolbar-chatbot {
-    height: 28px !important;
-  }
-  .toolbar-3dots {
-    height: 32px !important;
-  }
+    .toolbar-pin {
+      margin-left: 6em !important;
+      height: 30px !important;
+    }
+  
+    // Toolbar - Chatbot -------------------------------------------------------------------------------
+  
+    .toolbar-chatbot {
+      margin-left: 12px !important;
+      height: 28px !important;
+    }
+    .toolbar-3dots {
+      height: 32px !important;
+    }
 }
 
-// ----------------------------------------SCREEN ( 1300 )-------------------------------------------------
+// ----------------------------------------SCREEN ( 1300-1400  )-------------------------------------------------
 
-@media only screen and (max-width: 1305px) {
+@media only screen and (min-width: 1301px ) and (max-width: 1399px) {
   :root {
     --margin-top: 1em;
     --margin-bottom: 1em !important;
@@ -479,10 +506,11 @@ img {
       margin-left: 15% !important;
     }
   }
+  
   // Toolbar - Pin -------------------------------------------------------------------------------
 
   .toolbar-pin {
-    margin-left: 6em !important;
+    margin-left: 3em!important;
     height: 30px !important;
   }
   // Toolbar - Chatbot -------------------------------------------------------------------------------
@@ -495,15 +523,36 @@ img {
 }
 }
 
-// ----------------------------------------SCREEN ( 1250 )-------------------------------------------------
+// ----------------------------------------SCREEN ( 1300 )-------------------------------------------------
 
-@media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 1300px) {
   // Toolbar - Pin -------------------------------------------------------------------------------
 
   .toolbar-pin {
-    margin-left: 5em !important;
+    margin-left: 4em!important;
     height: 30px !important;
   }
+  // Toolbar - Chatbot -------------------------------------------------------------------------------
+
+.toolbar-chatbot {
+  height: 28px!important;
+}
+.toolbar-3dots {
+  height: 32px!important;
+}
+
+}
+// ----------------------------------------SCREEN ( 1200-1300  )-------------------------------------------------
+
+@media only screen and (min-width: 1201px ) and (max-width: 1299px) {
+    // Toolbar - Pin -------------------------------------------------------------------------------
+
+    .toolbar-pin {
+      margin-left: 3em!important;
+      height: 30px !important;
+    }
+    // Toolbar - Chatbot -------------------------------------------------------------------------------
+  
   .toolbar-chatbot {
     height: 28px!important;
   }
@@ -516,13 +565,13 @@ img {
 
 @media only screen and (max-width: 1200px) {
   .operator-avatar {
-    margin-left: 9% !important;
+    margin-left: 18% !important;
     margin-top: 0.7em !important;
   }
   // Toolbar - Pin -------------------------------------------------------------------------------
 
   .toolbar-pin {
-    margin-left: 7em !important;
+    margin-left: 3em !important;
     height: 30px !important;
   }
   .toolbar-chatbot {
@@ -532,7 +581,24 @@ img {
     height: 32px!important;
   }
 }
+// ----------------------------------------SCREEN ( 1100-1200  )-------------------------------------------------
 
+@media only screen and (min-width: 1101px ) and (max-width: 1199px) {
+  // Toolbar - Pin -------------------------------------------------------------------------------
+
+  .toolbar-pin {
+    margin-left: 3em!important;
+    height: 30px !important;
+  }
+  // Toolbar - Chatbot -------------------------------------------------------------------------------
+
+.toolbar-chatbot {
+  height: 28px!important;
+}
+.toolbar-3dots {
+  height: 32px!important;
+}
+}
 // ----------------------------------------SCREEN ( 1150 )-------------------------------------------------
 
 @media only screen and (max-width: 1150px) {
@@ -628,9 +694,83 @@ img {
     height: 32px!important;
   }
 }
+// ----------------------------------------SCREEN ( 1100 )-------------------------------------------------
+
+@media only screen and (max-width: 1100px) {
+  // Toolbar - Pin -------------------------------------------------------------------------------
+
+  .toolbar-pin {
+    margin-left: 9em !important;
+    height: 30px !important;
+  }
+  .toolbar-chatbot {
+    height: 28px!important;
+  }
+  .toolbar-3dots {
+    height: 32px!important;
+  }
+}
+// ----------------------------------------SCREEN ( 1000-1100  )-------------------------------------------------
+
+@media only screen and (min-width: 1001px ) and (max-width: 1099px) {
+  // Toolbar - Pin -------------------------------------------------------------------------------
+
+  .toolbar-pin {
+    margin-left: 5.5em !important;
+    height: 30px !important;
+  }
+  .toolbar-chatbot {
+    height: 28px!important;
+  }
+  .toolbar-3dots {
+    height: 32px!important;
+  }
+}
+// ----------------------------------------SCREEN ( 1000 )-------------------------------------------------
+
+@media only screen and (max-width: 1000px) {
+    // Toolbar - Pin -------------------------------------------------------------------------------
+
+    .toolbar-pin {
+      margin-left: 5.5em !important;
+      height: 30px !important;
+    }
+    .toolbar-chatbot {
+      height: 28px!important;
+    }
+    .toolbar-3dots {
+      height: 32px!important;
+    }
+}
+// ----------------------------------------SCREEN ( 900-1000  )-------------------------------------------------
+
+@media only screen and (min-width: 901px ) and (max-width:999px) {
+  // Operator avatar -------------------------------------------------------------------
+
+.operator-avatar {
+  margin-left: 3.5em!important;
+  margin-top: 0.7em!important;
+}
+    // Toolbar - Pin -------------------------------------------------------------------------------
+
+    .toolbar-pin {
+      margin-left: 3em !important;
+      height: 30px !important;
+    }
+    .toolbar-chatbot {
+      height: 28px!important;
+    }
+    .toolbar-3dots {
+      height: 32px!important;
+    }
+}
 // ----------------------------------------SCREEN ( 900 )-------------------------------------------------
 
 @media only screen and (max-width: 900px) {
+  .operator-avatar {
+    margin-left: 3.5em!important;
+    margin-top: 0.7em!important;
+  }
   // Toolbar - Pin -------------------------------------------------------------------------------
 
   .toolbar-pin {
@@ -644,9 +784,13 @@ img {
     height: 32px!important;
   }
 }
-// ----------------------------------------SCREEN ( 850 )-------------------------------------------------
+// ----------------------------------------SCREEN ( 800-900  )-------------------------------------------------
 
-@media only screen and (max-width: 850px) {
+@media only screen and (min-width: 801px ) and (max-width:899px) {
+  .operator-avatar {
+    margin-left: 1em!important;
+    margin-top: 0.7em!important;
+  }
   // Toolbar - Pin -------------------------------------------------------------------------------
 
   .toolbar-pin {
@@ -664,10 +808,37 @@ img {
 // ----------------------------------------SCREEN ( 800 )-------------------------------------------------
 
 @media only screen and (max-width: 800px) {
+  .operator-avatar {
+    margin-left: 1em!important;
+    margin-top: 0.7em!important;
+  }
   // Toolbar - Pin -------------------------------------------------------------------------------
 
   .toolbar-pin {
     margin-left: 1em !important;
+    height: 30px !important;
+  }
+  .toolbar-chatbot {
+    height: 28px!important;
+  }
+  .toolbar-3dots {
+    height: 32px!important;
+  }
+}
+// ----------------------------------------SCREEN ( 700-800  )-------------------------------------------------
+
+@media only screen and (min-width: 701px ) and (max-width:799px) {
+  .CountdownTimer {
+    margin-left:  0.1em!important;
+  }
+  .operator-avatar {
+    margin-left: 0.1em!important;
+    margin-top: 0.7em!important;
+  }
+  // Toolbar - Pin -------------------------------------------------------------------------------
+
+  .toolbar-pin {
+    margin-left: 0.1em !important;
     height: 30px !important;
   }
   .toolbar-chatbot {
@@ -788,10 +959,17 @@ img {
     margin-top: 1.3em !important;
   }
   .toolbar-pin {
-    margin-left: 4em !important;
+    margin-left: 10em!important;
   }
 }
+// ----------------------------------------SCREEN ( 601-620  )-------------------------------------------------
 
+@media only screen and (min-width: 601px ) and (max-width:620px) {
+  .operator-avatar {
+    margin-left: 3em !important;
+    margin-top: 0.7em !important;
+  }
+}
 // ----------------------------------------SCREEN ( 600 )-------------------------------------------------
 
 @media only screen and (max-width: 600px) {
@@ -857,6 +1035,23 @@ img {
   }
   .toolbar-pin {
     margin-left: 5em !important;
+    height: 30px !important;
+  }
+  .toolbar-chatbot {
+    height: 28px!important;
+  }
+  .toolbar-3dots {
+    height: 32px!important;
+  }
+}
+// ----------------------------------------SCREEN ( 500 to 550 )-------------------------------------------------
+
+@media only screen and (min-width: 501px) and (max-width: 550px) {
+  .operator-avatar {
+    margin-left: 1em !important;
+  }
+  .toolbar-pin {
+    margin-left: 3em !important;
     height: 30px !important;
   }
   .toolbar-chatbot {
@@ -1033,8 +1228,8 @@ img {
   }
 
   .operator-avatar {
-    margin-left: 20%;
-    margin-top: 0.7em;
+    margin-left: 23%!important;
+    margin-top: 0.7em!important;
   }
   .select-operator {
     margin-top: 1.3em !important;
