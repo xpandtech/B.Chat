@@ -283,9 +283,9 @@ const styles = {
         fontFamily: 'Avenir'
     },
     chatsContainer: {
-        width: '100%',
-        borderRadius: '0px 0px 24px 24px'
-
+    height: '40em',
+    width: '100%',
+    borderRadius: '0px 0px 24px 24px',
     },
 }
 
