@@ -1467,3 +1467,10 @@ form .clear-text {
   margin-bottom: 1px!important;
 }
 
+// ----------------------------------------SCREEN ( 1700 to 1800)-------------------------------------------------
+
+@media only screen and (min-width: 1700px) and (max-width: 1800px) {
+  .chatsContainer {
+    height:30em!important;
+    }
+}

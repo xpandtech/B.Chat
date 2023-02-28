@@ -10,6 +10,7 @@ import chatLogoWhite from "../../../images/chatlogowhite.png";
 
 import NewChatForm from './NewChatForm'
 
+
 let count = 50
 
 const ChatList = props => {
@@ -276,16 +277,17 @@ const ChatList = props => {
 
 const styles = {
     chatListContainer: {
-        maxHeight: '100vh',
+        maxHeight: '100%',
         overflow: 'scroll',
         overflowX: 'hidden',
         backgroundColor: 'white',
         fontFamily: 'Avenir'
     },
     chatsContainer: {
-    height: '80em',
+    height: '80vh',
     width: '100%',
     borderRadius: '0px 0px 24px 24px',
+    // overflow: 'auto',
     },
 }
 
