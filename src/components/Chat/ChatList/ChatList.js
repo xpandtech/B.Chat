@@ -283,7 +283,7 @@ const styles = {
         fontFamily: 'Avenir'
     },
     chatsContainer: {
-    height: '40em',
+    height: '80em',
     width: '100%',
     borderRadius: '0px 0px 24px 24px',
     },
