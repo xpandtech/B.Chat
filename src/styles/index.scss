@@ -1456,13 +1456,26 @@ form .clear-text {
 //--------------------------------Comment box===---------------------------------------
 .notebox-container{
   height: 50rem !important;
-  width: 200rem;
-  background-color:grey!important;
+  // width: 200rem;
 }
 .form-control{
-  width:300px!important;
-  height:50px !important;
+   width:262px!important;
+  height:60px !important;
 }
-.d-flex{
-  margin-bottom: 1px!important;
+.d-flex{ 
+  margin-top:9px!important;
+  background-color:#9a97fc;
+}
+.flex-row{
+  background-color:#8683ef!important;
+  display:flex!important;
+  flex-direction: column!important;
+}
+.ms-2{
+  margin-right: 30px;
+  margin-bottom:10px;
+}
+.para-name{
+  margin-left: 60px;
+  // margin-bottom: 50px;
 }
