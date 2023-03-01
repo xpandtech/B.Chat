@@ -1,67 +1,44 @@
 import React from "react";
-import {
-  MDBCard,
-  MDBCardBody,
-  MDBCardImage,
-  MDBCol,
-  MDBContainer,
-  MDBIcon,
-  MDBInput,
-  MDBRow,
-} from "mdb-react-ui-kit";
 
 export default function Comments() {
   return (
-    <MDBContainer className="notebox-container">
-      <MDBRow className="notebox-row">
-        <MDBCol className="notebox-col">
-          <MDBCard
-            className="notebox-card"
-            
-          >
-            <MDBCardBody>
-              <MDBInput wrapperClass="mb-4" placeholder="Type comment..."/>
+    <div className="notebox-container">
+      <input
+        type="text"
+        className="notebox-input"
+        placeholder="Enter Comment"
+      />
 
-              <MDBCard className="notebox-card">
-              </MDBCard>
+      <div className="note-list">
 
-              <MDBCard className="notebox-card">
-                <MDBCardBody>
+        {/* //* note cards - 1   */}
+        
+        <card className="note-card">
+          <p className="note-text">All the notes will be visible here</p>
 
-                  <div className="d-flex">
-                   
-                    <p>Type your note, and hit enter to add it</p>
+          <div className="flex-row">
+            <img
+              src="https://mui.com/static/images/avatar/1.jpg"
+              className="notebox-avatar"
+            ></img>
+            <div className="name">John Doe</div>
+          </div>
+        </card>
 
-                    <div className="flex-row">
+        {/* //* note cards - 2  */}
 
-                      <MDBCardImage
-                        src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp"
-                        alt="avatar"
-                        width="25"
-                        height="25"
-                      />
-                    </div>
-                    <div className="flex-row">
-                   
-                    </div>
-                  </div>
-                </MDBCardBody>
-              </MDBCard>
+        <card className="note-card">
+          <p className="note-text">All the notes will be visible here</p>
 
-              <MDBCard className="notebox-card">
-              </MDBCard>
-
-              <MDBCard className="notebox-card">
-                <MDBCardBody>
-
-                
-                     
-                </MDBCardBody>
-              </MDBCard>
-            </MDBCardBody>
-          </MDBCard>
-        </MDBCol>
-      </MDBRow>
-    </MDBContainer>
+          <div className="flex-row">
+            <img
+              src="https://mui.com/static/images/avatar/1.jpg"
+              className="notebox-avatar"
+            ></img>
+            <div className="name">John Doe</div>
+          </div>
+        </card>
+      </div>
+    </div>
   );
 }
