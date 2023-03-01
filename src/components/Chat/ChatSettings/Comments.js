@@ -11,7 +11,7 @@ export default function Comments() {
 
       <div className="note-list">
 
-        {/* //* note cards - 1   */}
+        {/* //* note cards - 1  --- */}
         
         <card className="note-card">
           <p className="note-text">All the notes will be visible here</p>
