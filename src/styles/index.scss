@@ -1458,34 +1458,36 @@ form .clear-text {
   height: 50rem !important;
   // width: 200rem;
 }
-.form-control{
+.notebox-input{
    width:262px!important;
-  height:60px !important;
+  height:30px !important;
+  margin-bottom: 10px;
 }
-.d-flex{ 
-  margin-top:9px!important;
-  background-color:#9a97fc;
+.note-list{ 
+  margin-bottom:9px!important;
+  background-color:#4f4d75;
 }
-<<<<<<< HEAD
 .flex-row{
   background-color:#8683ef!important;
   display:flex!important;
-  flex-direction: column!important;
+  flex-direction: row!important;
+  margin-bottom:9px!important;
 }
-.ms-2{
+
+.note-card{
+margin-top: 15px;
+}
+
+.avatar{
   margin-right: 30px;
   margin-bottom:10px;
 }
-.para-name{
+.name{
   margin-left: 60px;
   // margin-bottom: 50px;
-=======
+}
 
-// ----------------------------------------SCREEN ( 1700 to 1800)-------------------------------------------------
-
-@media only screen and (min-width: 1700px) and (max-width: 1800px) {
-  .chatsContainer {
-    height:30em!important;
-    }
->>>>>>> 8cce99cb4bd69062aea5798d6aaef70f2df01e81
+.notebox-avatar{
+  width: 30px;
+  border-radius: 15px;
 }
