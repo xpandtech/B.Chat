@@ -1458,20 +1458,27 @@ form .clear-text {
   height: 50rem !important;
   // width: 200rem;
 }
-.form-control{
+.notebox-input{
    width:262px!important;
-  height:60px !important;
+  height:30px !important;
+  margin-bottom: 10px;
 }
-.d-flex{ 
-  margin-top:9px!important;
-  background-color:#9a97fc;
+.note-list{ 
+  margin-bottom:9px!important;
+  background-color:#4f4d75;
 }
 .flex-row{
   background-color:#8683ef!important;
   display:flex!important;
-  flex-direction: column!important;
+  flex-direction: row!important;
+  margin-bottom:9px!important;
 }
-.ms-2{
+
+.note-card{
+margin-top: 15px;
+}
+
+.avatar{
   margin-right: 30px;
   margin-bottom:10px;
 }
