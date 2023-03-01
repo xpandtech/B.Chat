@@ -1466,6 +1466,7 @@ form .clear-text {
   margin-top:9px!important;
   background-color:#9a97fc;
 }
+<<<<<<< HEAD
 .flex-row{
   background-color:#8683ef!important;
   display:flex!important;
@@ -1478,4 +1479,13 @@ form .clear-text {
 .para-name{
   margin-left: 60px;
   // margin-bottom: 50px;
+=======
+
+// ----------------------------------------SCREEN ( 1700 to 1800)-------------------------------------------------
+
+@media only screen and (min-width: 1700px) and (max-width: 1800px) {
+  .chatsContainer {
+    height:30em!important;
+    }
+>>>>>>> 8cce99cb4bd69062aea5798d6aaef70f2df01e81
 }
