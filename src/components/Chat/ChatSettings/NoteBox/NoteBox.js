@@ -61,7 +61,6 @@ class NoteBox extends Component {
   render() {
     return (
       <div className="NoteBox">
-        <h1>Notes App</h1>
         <NoteInput
           onSubmit={this.onSubmit}
           onChange={this.onChange}

@@ -1,14 +1,14 @@
 .note {
   padding: 1rem;
-  width: 80%;
+  width: 70%;
   margin: 20px auto;
-  border: 1px solid #54efa7;
+  border: 1px solid #726dfe;
   position: relative;
   white-space: pre-wrap;
 }
 
 .note-edit {
-  color: darkgreen;
+  color:#726dfe;
   position: absolute;
   right: -25px;
   top: 4px;
@@ -16,7 +16,7 @@
 }
 
 .note-delete {
-  color: darkred;
+  color:#726dfe;
   position: absolute;
   right: -25px;
   top: 30px;
