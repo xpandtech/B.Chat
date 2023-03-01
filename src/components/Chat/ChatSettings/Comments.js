@@ -40,7 +40,6 @@ export default function Comments() {
                         width="25"
                         height="25"
                       />
-                      <p className="notebox-name">Johny</p>
                     </div>
                     <div className="flex-row">
                    
@@ -55,23 +54,8 @@ export default function Comments() {
               <MDBCard className="notebox-card">
                 <MDBCardBody>
 
-                  <div className="d-flex">
-                 
-                    <p>Type your note, and hit enter to add it</p>
-
-                    <div className="flex-row">
-
-                      <MDBCardImage
-                        src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" 
-                        alt="avatar"
-                        width="25"
-                        height="25"
-                      />
-                    </div>
-                      <p className="small text-muted mb-0">David</p>
-                      <div className="flex-row">
-                    </div>
-                  </div>
+                
+                     
                 </MDBCardBody>
               </MDBCard>
             </MDBCardBody>
