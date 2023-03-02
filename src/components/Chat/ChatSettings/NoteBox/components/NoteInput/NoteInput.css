@@ -13,3 +13,9 @@
   padding: .5rem 1rem;
   cursor: pointer;
 }
+.input-design{
+  width:210px;
+  height:40px;
+  margin-left: 20px;
+  background-color:#9e9bf2 ;
+}
