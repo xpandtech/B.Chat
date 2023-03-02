@@ -16,8 +16,7 @@ const noteInput = ({ onChange, onSubmit, value }) => {
 
   return (
     <form className="note-input" onSubmit={handleSubmit}>
-      <textarea placeholder="Add a note..." onChange={handleChange} value={value}></textarea>
-      <button>Save</button>
+      <input className='input-design' placeholder="Add a note..." onChange={handleChange} value={value}></input>
     </form>
   )
 }

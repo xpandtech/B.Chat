@@ -281,13 +281,14 @@ const styles = {
         overflow: 'scroll',
         overflowX: 'hidden',
         backgroundColor: 'white',
-        fontFamily: 'Avenir'
+        fontFamily: 'Avenir',
+      overflow: 'auto',
+
     },
     chatsContainer: {
-    height: '80vh',
+    height: '87vh',
     width: '100%',
     borderRadius: '0px 0px 24px 24px',
-    // overflow: 'auto',
     },
 }
 
