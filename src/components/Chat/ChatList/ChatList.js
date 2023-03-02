@@ -282,7 +282,7 @@ const styles = {
         overflowX: 'hidden',
         backgroundColor: 'white',
         fontFamily: 'Avenir',
-     overflow: 'auto',
+      overflow: 'auto',
 
     },
     chatsContainer: {
