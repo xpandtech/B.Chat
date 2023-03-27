@@ -129,16 +129,10 @@ export const ChatCard = (props) => {
                 </div>
 
                 <div style={{ width: "100%" }} className="ce-chat-subtitle">
-                    <div
-                        style={styles.messageText}
-                        className="ce-chat-subtitle-text ce-chat-subtitle-message"
-                    >
-              {(conn.userName === "asbir%20vkp") ? "Say Hello" : lastMessage   }                        
-                        
-                    </div>
-
-
-                </div>
+      <div style={styles.messageText} className="ce-chat-subtitle-text ce-chat-subtitle-message">
+        {`${conn.userName}`} <br /> {`${lastMessage}`}
+      </div>
+    </div>
             </div>
             <div className="chat-card-activity">
                 <div className="chat-card-activity-time">
