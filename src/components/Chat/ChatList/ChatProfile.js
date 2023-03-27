@@ -31,7 +31,7 @@ export const ChatProfile = (props) => {
 
   const updateAv = () => {
     const myHeaders = new Headers();
-    myHeaders.append("Project-ID", process.env.REACT_APP_PROJECT_ID);
+    myHeaders.append("ct-ID", process.env.REACT_APP_PROJECT_ID);
     myHeaders.append("User-Name", convertedName);
     myHeaders.append("User-Secret", userObject.uid);
 

@@ -51,7 +51,7 @@ const ChatList = props => {
             ? chat.people.find((person) => person.person.username !== name)
             : chat.people.find((person) => person.person.username === name);
 
-        myHeaders.append("Project-ID", process.env.REACT_APP_PROJECT_ID);
+        myHeaders.append("ct-ID", process.env.REACT_APP_PROJECT_ID);
         myHeaders.append("User-Name", name);
         myHeaders.append("User-Secret", secret);
 

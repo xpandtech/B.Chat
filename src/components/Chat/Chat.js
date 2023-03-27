@@ -35,7 +35,7 @@ export const Chat = () => {
       method: "post",
       url: "https://api.chatengine.io/users/",
       headers: {
-        "PRIVATE-KEY": '7ecf1043-7d52-45d5-81dd-b3a8f98a5a6a',
+        "PRIVATE-KEY": '874f0042-0d30-44e6-8ff8-4cc422c8b1ab',
       },
       data: data,
     };
@@ -55,7 +55,7 @@ export const Chat = () => {
 
   function addDefaultChat(otherName) {
     var myHeaders = new Headers();
-    myHeaders.append("Project-ID", '0a454e89-e035-4130-a6ed-9e7139bb8d0f');
+    myHeaders.append("Project-ID", '45f52391-343b-4f07-b8c5-694e0beebd88');
     myHeaders.append("User-Name", convertedName);
     myHeaders.append("User-Secret", userObject.uid);
     myHeaders.append("Content-Type", "application/json");
@@ -83,7 +83,7 @@ export const Chat = () => {
       {convertedName && userObject && newAccountStatus ? (
         <ChatEngine
           offset={2}
-          projectID="0a454e89-e035-4130-a6ed-9e7139bb8d0f"
+          projectID="45f52391-343b-4f07-b8c5-694e0beebd88"
           userName='John'
           userSecret='123'
           height={chatHeight}

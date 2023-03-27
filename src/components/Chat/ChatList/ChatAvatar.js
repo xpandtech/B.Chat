@@ -56,3 +56,4 @@ export const ChatAvatar = ({ file, close, onSubmit, crop = false, username, user
     </div>
   );
 };
+
