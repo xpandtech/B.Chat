@@ -95,6 +95,10 @@ export const Chat = () => {
           renderChatSettings={() => { return <ChatSettingsColumn/> }}
           renderNewMessageForm={(creds, chatId) => { return <NewMessageForm creds={creds} chatId={chatId} /> }}
           renderMessageBubble={(creds, chat, lastMessage, message, nextMessage) => { return <MessageBubble creds={creds} chat={chat} lastMessage={lastMessage} message={message} nextMessage={nextMessage} /> }}
+          onConnect={(creds) => console.log(creds)}
+			
+        
+        
         />
       ) : (
         <div className="loading-image main-loader"><img src={loadingAnimation} alt="" /></div>
